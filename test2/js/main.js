@@ -173,7 +173,7 @@
         document.body.style.overflow = '';
     }
 
-    /* ============ CONTACT FORM (AJAX) ============ */
+    /* ============ CONTACT FORM (mailto) ============ */
     function initContactForm() {
         const form = $('#contactForm');
         if (!form) return;
@@ -183,6 +183,10 @@
         const lang   = () => document.documentElement.lang || 'nl';
 
         const messages = {
+            mailto: {
+                nl: 'Je mailprogramma wordt geopend. Klik daar op Verzenden.',
+                en: 'Your email app is opening. Press Send there.'
+            },
             sending: {
                 nl: 'Bericht wordt verstuurd...',
                 en: 'Sending message...'
@@ -308,43 +312,17 @@
                 return;
             }
 
-            // Disabled submit
-            submit.disabled = true;
-            setStatus(messages.sending[lang()]);
-
-            // Data verzamelen
-            const data = new FormData(form);
-            data.append('lang', lang());
-
-            try {
-                const response = await fetch('send_mail.php', {
-                    method: 'POST',
-                    body: data
-                });
-
-                if (!response.ok) throw new Error('HTTP ' + response.status);
-
-                const result = await response.json();
-
-                if (result.success) {
-                    setStatus(messages.success[lang()], 'success');
-                    form.reset();
-                } else {
-                    setStatus(
-                        result.message || messages.errorServer[lang()],
-                        'error'
-                    );
-                }
-            } catch (err) {
-                // Onderscheid tussen netwerk en server
-                if (err.name === 'TypeError') {
-                    setStatus(messages.errorNetwork[lang()], 'error');
-                } else {
-                    setStatus(messages.errorServer[lang()], 'error');
-                }
-            } finally {
-                submit.disabled = false;
-            }
+            // Geen server meer (GitHub Pages): open het mailprogramma
+            // van de bezoeker met alles al ingevuld.
+            const naam    = form.querySelector('[name="name"]').value.trim();
+            const email   = form.querySelector('[name="email"]').value.trim();
+            const bericht = form.querySelector('[name="message"]').value.trim();
+            const onderwerp = (lang() === 'en' ? 'Message from ' : 'Bericht van ') + naam;
+            const tekst = bericht + '\n\n--\n' + naam + '\n' + email;
+            window.location.href = 'mailto:service@dravenlock.nl'
+                + '?subject=' + encodeURIComponent(onderwerp)
+                + '&body=' + encodeURIComponent(tekst);
+            setStatus(messages.mailto[lang()], 'success');
         });
     }
 
