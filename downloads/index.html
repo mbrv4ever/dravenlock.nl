@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Officiële downloadpagina van Dravenlock">
+    <title>Dravenlock | Download</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0b0c10;
+            color: #e4e4e7;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            text-align: center;
+            padding: 4rem 1rem 2rem;
+        }
+        .logo {
+            max-width: 180px;
+            height: auto;
+            margin-bottom: 1.5rem;
+            filter: drop-shadow(0 4px 12px rgba(0, 212, 255, 0.15));
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            background: linear-gradient(90deg, #ffffff, #9ca3af);
+            -webkit-background-clip: text;
+            background-clip: text;
+                        color: #aa55ffff;
+        }
+        main {
+            flex: 1;
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: #aa55ffff;
+        }
+        p {
+            color: #aa55ffff;
+            margin-bottom: 1.5rem;
+        }
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: linear-gradient(135deg, #aa55ffff, #aa55ffff);
+            color: #000000;
+            font-weight: 600;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+            box-shadow: 0 4px 16px rgba(0, 212, 255, 0.25);
+        }
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(0, 212, 255, 0.35);
+            filter: brightness(1.05);
+        }
+        .download-btn svg {
+            width: 18px;
+            height: 18px;
+            fill: currentColor;
+        }
+        .meta {
+            margin-top: 2.5rem;
+            padding: 1.25rem;
+            background: #15171c;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            color: #9ca3af;
+        }
+        .meta strong {
+            color: #e4e4e7;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 0.85rem;
+            color: #aa55ffff;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            margin-top: auto;
+        }
+        @media (max-width: 600px) {
+            header { padding-top: 3rem; }
+            h1 { font-size: 2rem; }
+            main { padding: 1.5rem 1rem; }
+            .download-btn { padding: 0.9rem 2rem; width: 100%; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="splashimage.png" alt="Dravenlock Logo" class="logo">
+        <h1>Dravenlock</h1>
+    </header>
+    <main>
+        <h2>Download de Setup_DungeonMasterTools.exe"</h2>
+        <p>En Installer DungeonMasterTools op een plek naar keuze.<br>
+        <small>Deze applicatie is een enkele bestand.</small></p>
+        <a href="Setup_DungeonMasterTools.exe" class="download-btn" download>
+        <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+        Setup_DungeonMasterTools.exe" downloaden
+        </a>
+        <div class="meta">
+            <p><strong>Versie:</strong> 1.0.2 &nbsp;|&nbsp; <strong>Formaat:</strong> .exe &nbsp;|&nbsp; <strong>Grootte:</strong> 196 MB</p>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem;">Compatibel met Windows 10/11 (64-bit)</p>
+        </div>
+    </main>
+    <footer>
+        &copy; 2026 Dravenlock. Alle rechten voorbehouden.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "DraveMedia",
+  "short_name": "DraveMedia",
+  "description": "Doorlopende mediaspeler",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0e0e11",
+  "theme_color": "#0e0e11",
+  "icons": [
+    {"src": "dm-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"},
+    {"src": "dm-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable"}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+    "name": "Dravenlock Software",
+    "short_name": "Dravenlock",
+    "description": "Gratis Windows applicaties op donatiebasis - Made with love in the EU.",
+    "lang": "nl",
+    "dir": "ltr",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#111114",
+    "theme_color": "#111114",
+    "categories": ["productivity", "utilities"],
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
