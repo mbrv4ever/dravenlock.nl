@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Dravenlock Software - Gratis Windows applicaties op donatiebasis. DeskButler, PySetup, SysCare, Dravenlock Browser, DraveSetup Maker, DraveFotolab en DraveStudio." data-nl="Dravenlock Software - Gratis Windows applicaties op donatiebasis. DeskButler, PySetup, SysCare, Dravenlock Browser, DraveSetup Maker, DraveFotolab en DraveStudio." data-en="Dravenlock Software - Free donation-based Windows applications. DeskButler, PySetup, SysCare, Dravenlock Browser, DraveSetup Maker, DraveFotolab and DraveStudio.">
+<meta name="description" content="Dravenlock Software - Gratis Windows-apps op donatiebasis: AI, games, media, kantoor, systeem en meer. Open source (GPL-3.0)." data-nl="Dravenlock Software - Gratis Windows-apps op donatiebasis: AI, games, media, kantoor, systeem en meer. Open source (GPL-3.0)." data-en="Dravenlock Software - Free donation-based Windows apps: AI, games, media, office, system and more. Open source (GPL-3.0).">
 <meta name="theme-color" content="#111114">
 
 <!-- PWA: web app manifest + iOS/Android specifieke tags -->
@@ -21,7 +21,7 @@
 <!-- BIJ UPDATES: bump het versienummer (?v=X.X.X) in beide
      onderstaande regels (CSS + JS) zodat bezoekers de
      nieuwste versie krijgen zonder browser-cache problemen. -->
-<link rel="stylesheet" href="css/style.css?v=1.4.1">
+<link rel="stylesheet" href="css/style.css?v=1.7.0">
 
 <!-- Open Graph (social sharing) -->
 <meta property="og:title" content="Dravenlock Software">
@@ -146,199 +146,477 @@
         <div class="section-header reveal">
             <span class="section-tag">Apps</span>
             <h2 data-nl="Downloads" data-en="Downloads">Downloads</h2>
-            <p data-nl="Zeven apps, allemaal Windows-compatibel, allemaal gratis te downloaden. Klik op een knop en je app start meteen met downloaden."
-               data-en="Seven apps, all Windows-compatible, all free to download. Click a button and your app starts downloading right away.">
-                Zeven apps, allemaal Windows-compatibel, allemaal gratis te downloaden. Klik op een knop en je app start meteen met downloaden.
+            <p data-nl="49 apps, allemaal gratis en open source (GPL-3.0). Klik op Download, pak de zip uit en start het programma. Zie je een blauw scherm van Windows? Klik op Meer informatie en dan Toch uitvoeren."
+               data-en="49 apps, all free and open source (GPL-3.0). Click Download, unzip and start the program. See a blue Windows screen? Click More info, then Run anyway.">
+                49 apps, allemaal gratis en open source (GPL-3.0). Klik op Download, pak de zip uit en start het programma. Zie je een blauw scherm van Windows? Klik op Meer informatie en dan Toch uitvoeren.
             </p>
         </div>
 
+<!--APPS-START-->
+        <nav class="dl-catnav" aria-label="Categorieën"><a href="#cat-ai" data-nl="AI" data-en="AI">AI</a><a href="#cat-games" data-nl="Games" data-en="Games">Games</a><a href="#cat-media" data-nl="Media en creatief" data-en="Media &amp; creative">Media en creatief</a><a href="#cat-kantoor" data-nl="Tools en kantoor" data-en="Tools &amp; office">Tools en kantoor</a><a href="#cat-systeem" data-nl="Systeem en beveiliging" data-en="System &amp; security">Systeem en beveiliging</a><a href="#cat-web" data-nl="Web en servers" data-en="Web &amp; servers">Web en servers</a><a href="#cat-mobiel" data-nl="Mobiel (Android)" data-en="Mobile (Android)">Mobiel (Android)</a></nav>
+        <h3 class="dl-cat" id="cat-ai" data-nl="AI" data-en="AI">AI</h3>
         <div class="downloads-grid">
-
-            <!-- DeskButler -->
-            <article class="download-card reveal reveal-delay-1">
-                <div class="download-card-header">
-                    <div class="download-card-icon">DB</div>
-                    <div>
-                        <h3>DeskButler</h3>
-                        <span class="tag">Productiviteit</span>
-                    </div>
-                </div>
-                <p data-nl="Je persoonlijke desktop-assistent. Snelle toegang tot apps, bestanden, en taken vanaf je bureaublad."
-                   data-en="Your personal desktop assistant. Quick access to apps, files, and tasks from your desktop.">
-                    Je persoonlijke desktop-assistent. Snelle toegang tot apps, bestanden, en taken vanaf je bureaublad.
-                </p>
-                <a href="https://github.com/mbrv4ever/DeskButler" class="btn btn-primary" target="_blank" rel="noopener">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span data-nl="Download" data-en="Download">Download</span>
-                </a>
-            </article>
-
-            <!-- PySetup -->
-            <article class="download-card reveal reveal-delay-2">
-                <div class="download-card-header">
-                    <div class="download-card-icon">PS</div>
-                    <div>
-                        <h3>PySetup Maker</h3>
-                        <span class="tag" data-nl="Ontwikkelaars" data-en="Developers">Ontwikkelaars</span>
-                    </div>
-                </div>
-                <p data-nl="Zet je Python project om naar een schone Windows installer. Eén klik en je app is klaar voor distributie."
-                   data-en="Turn your Python project into a clean Windows installer. One click and your app is ready for distribution.">
-                    Zet je Python project om naar een schone Windows installer. Eén klik en je app is klaar voor distributie.
-                </p>
-                <a href="https://github.com/mbrv4ever/Pysetup_maker" class="btn btn-primary" target="_blank" rel="noopener">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span data-nl="Download" data-en="Download">Download</span>
-                </a>
-            </article>
-
-            <!-- SysCare -->
-            <article class="download-card reveal reveal-delay-3">
-                <div class="download-card-header">
-                    <div class="download-card-icon">SC</div>
-                    <div>
-                        <h3>SysCare</h3>
-                        <span class="tag" data-nl="Systeem" data-en="System">Systeem</span>
-                    </div>
-                </div>
-                <p data-nl="Een eerlijke systeem-tool. Geen valse meldingen, geen pushy verkooptactieken. Alleen wat echt werkt voor je Windows-pc."
-                   data-en="An honest system tool. No fake alerts, no pushy sales tactics. Just what actually works for your Windows PC.">
-                    Een eerlijke systeem-tool. Geen valse meldingen, geen pushy verkooptactieken. Alleen wat echt werkt voor je Windows-pc.
-                </p>
-                <a href="https://github.com/mbrv4ever?tab=repositories" class="btn btn-primary" target="_blank" rel="noopener">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span data-nl="Download" data-en="Download">Download</span>
-                </a>
-            </article>
-
-            <!-- Browser -->
-            <article class="download-card reveal reveal-delay-4">
-                <div class="download-card-header">
-                    <div class="download-card-icon">DC</div>
-                    <div>
-                        <h3>Dravenlock Browser</h3>
-                        <span class="tag" data-nl="Internet" data-en="Internet">Internet</span>
-                    </div>
-                </div>
-                <p data-nl="Een eigen, schone browser zonder tracking en bloat. Snel, helder, privacy-vriendelijk."
-                   data-en="An own, clean browser without tracking and bloat. Fast, clear, privacy-friendly.">
-                    Een eigen, schone browser zonder tracking en bloat. Snel, helder, privacy-vriendelijk.
-                </p>
-                <a href="https://github.com/mbrv4ever/DravenlockBrowser" class="btn btn-primary" target="_blank" rel="noopener">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span data-nl="Download" data-en="Download">Download</span>
-                </a>
-            </article>
-
-            <!-- DraveSetup -->
-            <article class="download-card reveal reveal-delay-4">
-                <div class="download-card-header">
-                    <div class="download-card-icon">DS</div>
-                    <div>
-                        <h3>DraveSetup Maker</h3>
-                        <span class="tag" data-nl="Ontwikkelaars" data-en="Developers">Ontwikkelaars</span>
-                    </div>
-                </div>
-                <p data-nl="Heb je al een .exe? Pak hem in een schone Windows installer zonder Nuitka of Python. Werkt met elke gecompileerde Windows-applicatie."
-                   data-en="Already have an .exe? Wrap it in a clean Windows installer without Nuitka or Python. Works with any compiled Windows application.">
-                    Heb je al een .exe? Pak hem in een schone Windows installer zonder Nuitka of Python. Werkt met elke gecompileerde Windows-applicatie.
-                </p>
-                <a href="https://github.com/mbrv4ever/dravesetup" class="btn btn-primary" target="_blank" rel="noopener">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span data-nl="Download" data-en="Download">Download</span>
-                </a>
-            </article>
-
-            <!-- DraveFotolab -->
-            <article class="download-card reveal reveal-delay-4">
-                <div class="download-card-header">
-                    <div class="download-card-icon">DF</div>
-                    <div>
-                        <h3>DraveFotolab</h3>
-                        <span class="tag" data-nl="Foto-editor" data-en="Photo editor">Foto-editor</span>
-                    </div>
-                </div>
-                <p data-nl="Een lichte, snelle foto-editor in Lightroom-stijl. Niet-destructief bewerken, RAW-ondersteuning, curves, batch verwerking, en Lightroom .xmp presets importeren. Voor wie kwaliteit wil zonder abonnement."
-                   data-en="A light, fast Lightroom-style photo editor. Non-destructive editing, RAW support, curves, batch processing, and Lightroom .xmp preset import. For those who want quality without subscriptions.">
-                    Een lichte, snelle foto-editor in Lightroom-stijl. Niet-destructief bewerken, RAW-ondersteuning, curves, batch verwerking, en Lightroom .xmp presets importeren. Voor wie kwaliteit wil zonder abonnement.
-                </p>
-                <a href="https://github.com/mbrv4ever?tab=repositories" class="btn btn-primary" target="_blank" rel="noopener">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span data-nl="Download" data-en="Download">Download</span>
-                </a>
-            </article>
-
-            <!-- DraveStudio -->
-            <article class="download-card reveal reveal-delay-4">
-                <div class="download-card-header">
-                    <div class="download-card-icon">DS</div>
-                    <div>
-                        <h3>DraveStudio</h3>
-                        <span class="tag" data-nl="Beeld-editor" data-en="Image editor">Beeld-editor</span>
-                    </div>
-                </div>
-                <p data-nl="Een complete beeld-editor met lagen, penselen, tekst, blend modes én volledige vector-functionaliteit. Pen-tool, paths, SVG import/export. Photoshop-light en Illustrator-light in één — zonder abonnement."
-                   data-en="A complete image editor with layers, brushes, text, blend modes and full vector functionality. Pen tool, paths, SVG import/export. Photoshop-light and Illustrator-light in one — no subscription.">
-                    Een complete beeld-editor met lagen, penselen, tekst, blend modes én volledige vector-functionaliteit. Pen-tool, paths, SVG import/export. Photoshop-light en Illustrator-light in één — zonder abonnement.
-                </p>
-                <a href="https://github.com/mbrv4ever/DraveStudio/releases/latest" class="btn btn-primary" target="_blank" rel="noopener">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span data-nl="Download" data-en="Download">Download</span>
-                </a>
-            </article>
-
-            <!-- Browser Bundel -->
-            <article class="download-card reveal reveal-delay-4">
-                <div class="download-card-header">
-                    <div class="download-card-icon">+</div>
-                    <div>
-                        <h3>Browser Bundel</h3>
-                        <span class="tag" data-nl="Compleet pakket" data-en="Complete package">Compleet pakket</span>
-                    </div>
-                </div>
-                <p data-nl="De Dravenlock Browser samen met SysCare in één installatie. Een snelle, privacy-vriendelijke browser plus een eerlijke systeem-tool."
-                   data-en="The Dravenlock Browser together with SysCare in one install. A fast, privacy-friendly browser plus an honest system tool.">
-                    De Dravenlock Browser samen met SysCare in één installatie. Een snelle, privacy-vriendelijke browser plus een eerlijke systeem-tool.
-                </p>
-                <a href="https://github.com/mbrv4ever/DravenlockBrowser" class="btn btn-primary" target="_blank" rel="noopener">
-                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span data-nl="Download" data-en="Download">Download</span>
-                </a>
-            </article>
-
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">CH</div>
+              <div><h3>DraveChat</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Een lokale AI-chat: praat met een taalmodel op je eigen pc, zonder cloud.</p>
+            <a href="https://github.com/mbrv4ever/DraveChat" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">JA</div>
+              <div><h3>DraveJavis</h3><span class="tag">v1.0</span></div>
+            </div>
+            <p>Een lokale, privé spraakassistent: praat via de microfoon, hij antwoordt met een echte stem, zoekt zelf online en kan je pc bedienen.</p>
+            <a href="https://github.com/mbrv4ever/DraveJavis/releases/download/v1.0/DraveJavis-1.0-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (132 MB)" data-en="Download (132 MB)">Download (132 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveJavis" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">KI</div>
+              <div><h3>DraveKITT</h3><span class="tag">v1.0</span></div>
+            </div>
+            <p>Een pratende KITT-achtige assistent (Knight Rider-sfeer) die lokaal op je pc draait.</p>
+            <a href="https://github.com/mbrv4ever/DraveKITT/releases/download/v1.0/DraveKITT-1.0-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (120 MB)" data-en="Download (120 MB)">Download (120 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveKITT" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">MI</div>
+              <div><h3>DraveMind</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Je eigen, lokale AI-werkplek (DraveAI).</p>
+            <a href="https://github.com/mbrv4ever/DraveMind" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
         </div>
+        <h3 class="dl-cat" id="cat-games" data-nl="Games" data-en="Games">Games</h3>
+        <div class="downloads-grid">
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">DI</div>
+              <div><h3>DraveDice</h3><span class="tag">v0.2</span></div>
+            </div>
+            <p>Een dobbelsteen-roller voor D&amp;D en andere tafelspellen. Lokaal, offline, gratis (met donatie). Grote, goed leesbare cijfers.</p>
+            <a href="https://github.com/mbrv4ever/DraveDice/releases/download/v0.2/DraveDice-0.2-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (34 MB)" data-en="Download (34 MB)">Download (34 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveDice" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">GA</div>
+              <div><h3>DraveGames</h3><span class="tag">v0.1.4</span></div>
+            </div>
+            <p>Sport-minigames in C64/Atari-stijl met medailles. Vier onderdelen, winter en zomer, voor 1 speler (medailles halen) of 2 spelers om-en-om op dezelfde pc.</p>
+            <a href="https://github.com/mbrv4ever/DraveGames/releases/download/v0.1.4/DraveGames-0.1.4-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (23 MB)" data-en="Download (23 MB)">Download (23 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveGames" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">NC</div>
+              <div><h3>DravenCrawl</h3><span class="tag">v1.1.0</span></div>
+            </div>
+            <p>Een kerkerkruiper-spel (dungeon crawler) van Dravenlock Games.</p>
+            <a href="https://github.com/mbrv4ever/DravenCrawl/releases/download/v1.1.0/DravenCrawl-1.1.0-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (192 MB)" data-en="Download (192 MB)">Download (192 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DravenCrawl" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+        </div>
+        <h3 class="dl-cat" id="cat-media" data-nl="Media en creatief" data-en="Media &amp; creative">Media en creatief</h3>
+        <div class="downloads-grid">
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">ER</div>
+              <div><h3>DraveEReader</h3><span class="tag">v0.1.5</span></div>
+            </div>
+            <p>E-boeklezer en voorlezer.</p>
+            <a href="https://github.com/mbrv4ever/DraveEReader/releases/download/v0.1.5/DraveEReader-0.1.5-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (103 MB)" data-en="Download (103 MB)">Download (103 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveEReader" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">ME</div>
+              <div><h3>DraveMedia</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Alles-in-een mediaspeler (Dravenlock).</p>
+            <a href="https://github.com/mbrv4ever/DraveMedia" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">MO</div>
+              <div><h3>DraveMotion</h3><span class="tag">v0.40</span></div>
+            </div>
+            <p>Een portable animatie- en videostudio: tekenen, tijdlijn en exporteren, alles lokaal.</p>
+            <a href="https://github.com/mbrv4ever/DraveMotion/releases/download/v0.40/DraveMotion-0.40-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (151 MB)" data-en="Download (151 MB)">Download (151 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveMotion" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">PA</div>
+              <div><h3>DravePaint</h3><span class="tag">v0.1.11</span></div>
+            </div>
+            <p>Eenvoudige tekenapp met lagen.</p>
+            <a href="https://github.com/mbrv4ever/DravePaint/releases/download/v0.1.11/DravePaint-0.1.11-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (235 MB)" data-en="Download (235 MB)">Download (235 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DravePaint" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">RE</div>
+              <div><h3>DraveRead</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Voorlezer (tekst-naar-spraak) met natuurlijke, neurale stemmen via Neuvoice. On-device: draait op je eigen pc, geen cloud.</p>
+            <a href="https://github.com/mbrv4ever/DraveRead" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">SO</div>
+              <div><h3>DraveSound</h3><span class="tag">v0.33</span></div>
+            </div>
+            <p>Een lichte, portable muziekmaker: zet loops op meerdere sporen en maak je eigen nummers.</p>
+            <a href="https://github.com/mbrv4ever/DraveSound/releases/download/v0.33/DraveSound-0.33-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (108 MB)" data-en="Download (108 MB)">Download (108 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveSound" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">ST</div>
+              <div><h3>DraveStudio</h3><span class="tag">v0.19</span></div>
+            </div>
+            <p>Een lichte fotobewerker met lagen (Photoshop-achtig), in Dravenlock-stijl.</p>
+            <a href="https://github.com/mbrv4ever/DraveStudio/releases/download/v0.19/DraveStudio-0.19-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (54 MB)" data-en="Download (54 MB)">Download (54 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveStudio" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+        </div>
+        <h3 class="dl-cat" id="cat-kantoor" data-nl="Tools en kantoor" data-en="Tools &amp; office">Tools en kantoor</h3>
+        <div class="downloads-grid">
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">BE</div>
+              <div><h3>DraveBeurs</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Volg aandelen en koersen op een overzichtelijk dashboard.</p>
+            <a href="https://github.com/mbrv4ever/DraveBeurs" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">CO</div>
+              <div><h3>DraveCodex</h3><span class="tag">v0.2</span></div>
+            </div>
+            <p>Offline campagne-wiki.</p>
+            <a href="https://github.com/mbrv4ever/DraveCodex/releases/download/v0.2/DraveCodex-0.2-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (34 MB)" data-en="Download (34 MB)">Download (34 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveCodex" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">CO</div>
+              <div><h3>DraveContrast</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Kleurcontrast-checker volgens WCAG. Kies een tekstkleur en een achtergrond; de app rekent de contrastverhouding uit en zegt of het voldoende is (AA/AAA), met een live voorbeeld. Lokaal, offline, gratis (met donatie).</p>
+            <a href="https://github.com/mbrv4ever/DraveContrast" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">CO</div>
+              <div><h3>DraveConvert</h3><span class="tag">v0.1</span></div>
+            </div>
+            <p>Lokale media- en bestandsconverter (afbeeldingen, audio, video). Lokaal, offline, geen cloud, geen account.</p>
+            <a href="https://github.com/mbrv4ever/DraveConvert/releases/download/v0.1/DraveConvert-0.1-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (53 MB)" data-en="Download (53 MB)">Download (53 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveConvert" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">ED</div>
+              <div><h3>DraveEdit</h3><span class="tag">v0.21</span></div>
+            </div>
+            <p>WYSIWYG HTML5-editor: bouw een webpagina door widgets te slepen, met live voorbeeld en export naar gewone HTML of een installeerbare PWA. Alles draait lokaal; de editor zit in dit pakket.</p>
+            <a href="https://github.com/mbrv4ever/DraveEdit/releases/download/v0.21/DraveEdit-0.21-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (193 MB)" data-en="Download (193 MB)">Download (193 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveEdit" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">FO</div>
+              <div><h3>DraveForms</h3><span class="tag">v0.8</span></div>
+            </div>
+            <p>Een PDF-lezer die invulbare formulieren kan invullen (dropdowns, tekstvakken, vinkjes) EN tekst aan een bestaande PDF kan toevoegen - ook formulieren die normaal alleen in Adobe werken. Lokaal, offline, gratis (met donatie).</p>
+            <a href="https://github.com/mbrv4ever/DraveForms/releases/download/v0.8/DraveForms-0.8-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (53 MB)" data-en="Download (53 MB)">Download (53 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveForms" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">LI</div>
+              <div><h3>DraveLink</h3><span class="tag">v0.6</span></div>
+            </div>
+            <p>Chat en bestanden delen op je eigen netwerk (LAN) - zonder internet, zonder cloud. Onderdeel van de Dravenlock-reeks.</p>
+            <a href="https://github.com/mbrv4ever/DraveLink/releases/download/v0.6/DraveLink-0.6-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (35 MB)" data-en="Download (35 MB)">Download (35 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveLink" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">NO</div>
+              <div><h3>DraveNote</h3><span class="tag">v0.7</span></div>
+            </div>
+            <p>Lokale markdown-notities.</p>
+            <a href="https://github.com/mbrv4ever/DraveNote/releases/download/v0.7/DraveNote-0.7-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (34 MB)" data-en="Download (34 MB)">Download (34 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveNote" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">OF</div>
+              <div><h3>DraveOffice</h3><span class="tag">v0.5</span></div>
+            </div>
+            <p>Lokale, offline office-suite: tekstverwerker, rekenblad, rekenmachine, kasboek, presentatie, tekenen en database.</p>
+            <a href="https://github.com/mbrv4ever/DraveOffice/releases/download/v0.5/DraveOffice-0.5-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (207 MB)" data-en="Download (207 MB)">Download (207 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveOffice" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">PD</div>
+              <div><h3>DravePDF</h3><span class="tag">v0.17</span></div>
+            </div>
+            <p>PDF-gereedschap en ondertekenen.</p>
+            <a href="https://github.com/mbrv4ever/DravePDF/releases/download/v0.17/DravePDF-0.17-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (53 MB)" data-en="Download (53 MB)">Download (53 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DravePDF" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">PA</div>
+              <div><h3>DravePack</h3><span class="tag">v0.3</span></div>
+            </div>
+            <p>Bestanden in- en uitpakken.</p>
+            <a href="https://github.com/mbrv4ever/DravePack/releases/download/v0.3/DravePack-0.3-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (40 MB)" data-en="Download (40 MB)">Download (40 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DravePack" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">PO</div>
+              <div><h3>DravePoort</h3><span class="tag">v0.1.2</span></div>
+            </div>
+            <p>Startportaal voor je Dravenlock-apps.</p>
+            <a href="https://github.com/mbrv4ever/DravePoort/releases/download/v0.1.2/DravePoort-0.1.2-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (34 MB)" data-en="Download (34 MB)">Download (34 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DravePoort" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">SH</div>
+              <div><h3>DraveSheet</h3><span class="tag">v0.4.1</span></div>
+            </div>
+            <p>Invulbare D&amp;D character sheets.</p>
+            <a href="https://github.com/mbrv4ever/DraveSheet/releases/download/v0.4.1/DraveSheet-0.4.1-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (53 MB)" data-en="Download (53 MB)">Download (53 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveSheet" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">SH</div>
+              <div><h3>DraveShot</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Schermafbeeldingen en schermopnames met annotaties.</p>
+            <a href="https://github.com/mbrv4ever/DraveShot" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">TA</div>
+              <div><h3>DraveTag</h3><span class="tag">v0.5</span></div>
+            </div>
+            <p>Media-tags bewerken en bulk hernoemen.</p>
+            <a href="https://github.com/mbrv4ever/DraveTag/releases/download/v0.5/DraveTag-0.5-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (47 MB)" data-en="Download (47 MB)">Download (47 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveTag" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">TR</div>
+              <div><h3>DraveTranslate</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Offline vertaler.</p>
+            <a href="https://github.com/mbrv4ever/DraveTranslate" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">WE</div>
+              <div><h3>DraveWeer</h3><span class="tag">v1.0</span></div>
+            </div>
+            <p>Het weerbericht en de verwachting voor jouw plaats, groot en duidelijk.</p>
+            <a href="https://github.com/mbrv4ever/DraveWeer/releases/download/v1.0/DraveWeer-1.0-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (33 MB)" data-en="Download (33 MB)">Download (33 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveWeer" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">ZO</div>
+              <div><h3>DraveZoom</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Schermvergrootglas: vergroot het stuk scherm rond je muis, met filters (grijswaarden, kleuren omkeren, hoog contrast) voor wie slecht ziet. Lokaal, offline, gratis (met donatie).</p>
+            <a href="https://github.com/mbrv4ever/DraveZoom" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+        </div>
+        <h3 class="dl-cat" id="cat-systeem" data-nl="Systeem en beveiliging" data-en="System &amp; security">Systeem en beveiliging</h3>
+        <div class="downloads-grid">
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">DB</div>
+              <div><h3>DeskButler</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>DeskButler: je digitale butler voor e-mail, taken, notities, downloads en meer, in ├®├®n venster.</p>
+            <a href="https://github.com/mbrv4ever/DeskButler" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">BA</div>
+              <div><h3>DraveBackup</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Geplande lokale back-up van je mappen.</p>
+            <a href="https://github.com/mbrv4ever/DraveBackup" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">EX</div>
+              <div><h3>DraveExplorer</h3><span class="tag">v0.7.1</span></div>
+            </div>
+            <p>Een snelle, toegankelijke verkenner voor je bestanden. Lokaal, offline, donationware.</p>
+            <a href="https://github.com/mbrv4ever/DraveExplorer/releases/download/v0.7.1/DraveExplorer-0.7.1-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (52 MB)" data-en="Download (52 MB)">Download (52 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveExplorer" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">GU</div>
+              <div><h3>DraveGuard</h3><span class="tag">v1.0</span></div>
+            </div>
+            <p>Een beveiligingsdashboard voor je pc: houdt in de gaten wat er draait en waarschuwt bij gevaar.</p>
+            <a href="https://github.com/mbrv4ever/DraveGuard/releases/download/v1.0/DraveGuard-1.0-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (220 MB)" data-en="Download (220 MB)">Download (220 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveGuard" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">PU</div>
+              <div><h3>DravePurge</h3><span class="tag">v0.2.8</span></div>
+            </div>
+            <p>Privacy-opruimer.</p>
+            <a href="https://github.com/mbrv4ever/DravePurge/releases/download/v0.2.8/DravePurge-0.2.8-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (35 MB)" data-en="Download (35 MB)">Download (35 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DravePurge" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">SC</div>
+              <div><h3>DraveSeCam</h3><span class="tag">v0.6.2</span></div>
+            </div>
+            <p>Lokale, offline bewakingscamera.</p>
+            <a href="https://github.com/mbrv4ever/DraveSeCam/releases/download/v0.6.2/DraveSeCam-0.6.2-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (256 MB)" data-en="Download (256 MB)">Download (256 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveSeCam" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">UN</div>
+              <div><h3>DraveUninstall</h3><span class="tag">v0.3.1</span></div>
+            </div>
+            <p>Complete uninstaller.</p>
+            <a href="https://github.com/mbrv4ever/DraveUninstal/releases/download/v0.3.1/DraveUninstal-0.3.1-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (34 MB)" data-en="Download (34 MB)">Download (34 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveUninstal" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">VA</div>
+              <div><h3>DraveVault</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Lokale, versleutelde wachtwoord- en notitiekluis.</p>
+            <a href="https://github.com/mbrv4ever/DraveVault" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">WA</div>
+              <div><h3>DraveWall</h3><span class="tag">v0.2.2</span></div>
+            </div>
+            <p>Voorkant voor de Windows-firewall.</p>
+            <a href="https://github.com/mbrv4ever/DraveWall/releases/download/v0.2.2/DraveWall-0.2.2-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (36 MB)" data-en="Download (36 MB)">Download (36 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveWall" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">PS</div>
+              <div><h3>PySetup Maker</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Maak van je Python-programma een Windows-installatie (setup.exe), met knoppen in plaats van commando&#x27;s.</p>
+            <a href="https://github.com/mbrv4ever/Pysetup_maker" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">SM</div>
+              <div><h3>DraveSetup Maker</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Een setup-maker: bouw een nette installatie en uninstaller voor je eigen programma&#x27;s.</p>
+            <a href="https://github.com/mbrv4ever/dravesetup" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+        </div>
+        <h3 class="dl-cat" id="cat-web" data-nl="Web en servers" data-en="Web &amp; servers">Web en servers</h3>
+        <div class="downloads-grid">
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">ON</div>
+              <div><h3>DraveOnion</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>Een Tor-onion-servertje: deel een eigen website anoniem via het Tor-netwerk.</p>
+            <a href="https://github.com/mbrv4ever/DraveOnion" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">SE</div>
+              <div><h3>DraveServer</h3><span class="tag">v0.31</span></div>
+            </div>
+            <p>Je AI-chat als server.</p>
+            <a href="https://github.com/mbrv4ever/DraveServer/releases/download/v0.31/DraveServer-0.31-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (172 MB)" data-en="Download (172 MB)">Download (172 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveServer" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">NL</div>
+              <div><h3>Dravenlock Browser</h3><span class="tag">v1.0</span></div>
+            </div>
+            <p>De Dravenlock-webbrowser: een eigen, privacyvriendelijke browser.</p>
+            <a href="https://github.com/mbrv4ever/DravenlockBrowser/releases/download/v1.0/DravenlockBrowser-1.0-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (1,0 GB)" data-en="Download (1,0 GB)">Download (1,0 GB)</span></a>
+            <a href="https://github.com/mbrv4ever/DravenlockBrowser" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">KI</div>
+              <div><h3>KITT-Server</h3><span class="tag">v1.0</span></div>
+            </div>
+            <p>Jouw persoonlijke &quot;hoofdkwartier&quot; voor DraveKITT Mobile.</p>
+            <a href="https://github.com/mbrv4ever/KITT-Server/releases/download/v1.0/KITT-Server-1.0-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (73 MB)" data-en="Download (73 MB)">Download (73 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/KITT-Server" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+        </div>
+        <h3 class="dl-cat" id="cat-mobiel" data-nl="Mobiel (Android)" data-en="Mobile (Android)">Mobiel (Android)</h3>
+        <div class="downloads-grid">
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">AP</div>
+              <div><h3>DraveAPK</h3><span class="tag">v0.1</span></div>
+            </div>
+            <p>Bouw je Python/Kivy-app naar Android, met knoppen.</p>
+            <a href="https://github.com/mbrv4ever/DraveAPK/releases/download/v0.1/DraveAPK-0.1-Windows.zip" class="btn btn-primary"><svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg><span data-nl="Download (35 MB)" data-en="Download (35 MB)">Download (35 MB)</span></a>
+            <a href="https://github.com/mbrv4ever/DraveAPK" class="dl-src" target="_blank" rel="noopener" data-nl="Uitleg en broncode op GitHub" data-en="Info and source code on GitHub">Uitleg en broncode op GitHub</a>
+          </article>
+          <article class="download-card reveal">
+            <div class="download-card-header">
+              <div class="download-card-icon">KI</div>
+              <div><h3>DraveKITT Mobile</h3><span class="tag" data-nl="broncode" data-en="source">broncode</span></div>
+            </div>
+            <p>KITT voor je telefoon (Kivy / Android).</p>
+            <a href="https://github.com/mbrv4ever/DraveKITTMobile" class="btn btn-outline" target="_blank" rel="noopener"><span data-nl="Broncode op GitHub" data-en="Source code on GitHub">Broncode op GitHub</span></a>
+            <span class="dl-src" data-nl="Nog geen kant-en-klare download: start met Python." data-en="No ready-made download yet: run with Python.">Nog geen kant-en-klare download: start met Python.</span>
+          </article>
+        </div>
+<!--APPS-EIND-->
     </div>
 </section>
 
