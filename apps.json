@@ -2,6 +2,72 @@
  "bijgewerkt": "2026-10-21",
  "apps": [
   {
+   "repo": "DraveKookboek",
+   "naam": "DraveKookboek",
+   "cat": "Tools en kantoor",
+   "beschr": "Je eigen recepten met kookstand, voorlezen en kookwekkers.",
+   "versie": "1.0.1",
+   "zip": "https://github.com/mbrv4ever/DraveKookboek/releases/download/v1.0.1/DraveKookboek-1.0.1-Windows.zip",
+   "mb": 73,
+   "img": "https://dravenlock.nl/img/apps/DraveKookboek.jpg",
+   "github": "https://github.com/mbrv4ever/DraveKookboek"
+  },
+  {
+   "repo": "DraveFoto",
+   "naam": "DraveFoto",
+   "cat": "Media en creatief",
+   "beschr": "Foto's bekijken, sorteren op datum en dubbele foto's vinden.",
+   "versie": "1.0",
+   "zip": "https://github.com/mbrv4ever/DraveFoto/releases/download/v1.0/DraveFoto-1.0-Windows.zip",
+   "mb": 49,
+   "img": "https://dravenlock.nl/img/apps/DraveFoto.jpg",
+   "github": "https://github.com/mbrv4ever/DraveFoto"
+  },
+  {
+   "repo": "DraveSchrijf",
+   "naam": "DraveSchrijf",
+   "cat": "Tools en kantoor",
+   "beschr": "Rustig schrijven aan je boek, met inspreken en voorlezen.",
+   "versie": "1.0",
+   "zip": "https://github.com/mbrv4ever/DraveSchrijf/releases/download/v1.0/DraveSchrijf-1.0-Windows.zip",
+   "mb": 123,
+   "img": "https://dravenlock.nl/img/apps/DraveSchrijf.jpg",
+   "github": "https://github.com/mbrv4ever/DraveSchrijf"
+  },
+  {
+   "repo": "dravesetup",
+   "naam": "DraveSetup Maker",
+   "cat": "Systeem en beveiliging",
+   "beschr": "Een setup-maker: bouw een nette installatie en uninstaller voor je eigen programma's.",
+   "versie": "0.1.1",
+   "zip": "https://github.com/mbrv4ever/dravesetup/releases/download/v0.1.1/dravesetup-0.1.1-Windows.zip",
+   "mb": 26,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/dravesetup"
+  },
+  {
+   "repo": "Pysetup_maker",
+   "naam": "PySetup Maker",
+   "cat": "Systeem en beveiliging",
+   "beschr": "Maak van je Python-programma een Windows-installatie (setup.exe), met knoppen in plaats van commando's.",
+   "versie": "0.4.9",
+   "zip": "https://github.com/mbrv4ever/Pysetup_maker/releases/download/v0.4.9/Pysetup_maker-0.4.9-Windows.zip",
+   "mb": 26,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/Pysetup_maker"
+  },
+  {
+   "repo": "DravePoort",
+   "naam": "DravePoort",
+   "cat": "Tools en kantoor",
+   "beschr": "Startportaal voor je Dravenlock-apps.",
+   "versie": "0.2.0",
+   "zip": "https://github.com/mbrv4ever/DravePoort/releases/download/v0.2.0/DravePoort-0.2.0-Windows.zip",
+   "mb": 35,
+   "img": "https://dravenlock.nl/img/apps/DravePoort.jpg",
+   "github": "https://github.com/mbrv4ever/DravePoort"
+  },
+  {
    "repo": "DraveMind",
    "naam": "DraveMind",
    "cat": "AI",
@@ -143,17 +209,6 @@
    "mb": 35,
    "img": "https://dravenlock.nl/img/apps/DraveShot.jpg",
    "github": "https://github.com/mbrv4ever/DraveShot"
-  },
-  {
-   "repo": "DravePoort",
-   "naam": "DravePoort",
-   "cat": "Tools en kantoor",
-   "beschr": "Startportaal voor je Dravenlock-apps.",
-   "versie": "0.1.3",
-   "zip": "https://github.com/mbrv4ever/DravePoort/releases/download/v0.1.3/DravePoort-0.1.3-Windows.zip",
-   "mb": 35,
-   "img": "https://dravenlock.nl/img/apps/DravePoort.jpg",
-   "github": "https://github.com/mbrv4ever/DravePoort"
   },
   {
    "repo": "DravePack",
@@ -462,28 +517,6 @@
    "mb": 265,
    "img": "",
    "github": "https://github.com/mbrv4ever/DeskButler"
-  },
-  {
-   "repo": "dravesetup",
-   "naam": "DraveSetup Maker",
-   "cat": "Systeem en beveiliging",
-   "beschr": "Een setup-maker: bouw een nette installatie en uninstaller voor je eigen programma's.",
-   "versie": "0.1.0",
-   "zip": "https://github.com/mbrv4ever/dravesetup/releases/download/v0.1.0/dravesetup-0.1.0-Windows.zip",
-   "mb": 26,
-   "img": "",
-   "github": "https://github.com/mbrv4ever/dravesetup"
-  },
-  {
-   "repo": "Pysetup_maker",
-   "naam": "PySetup Maker",
-   "cat": "Systeem en beveiliging",
-   "beschr": "Maak van je Python-programma een Windows-installatie (setup.exe), met knoppen in plaats van commando's.",
-   "versie": "0.4.8",
-   "zip": "https://github.com/mbrv4ever/Pysetup_maker/releases/download/v0.4.8/Pysetup_maker-0.4.8-Windows.zip",
-   "mb": 25,
-   "img": "",
-   "github": "https://github.com/mbrv4ever/Pysetup_maker"
   },
   {
    "repo": "DraveMedia",
