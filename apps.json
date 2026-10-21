@@ -2,6 +2,17 @@
  "bijgewerkt": "2026-10-21",
  "apps": [
   {
+   "repo": "DraveFeest",
+   "naam": "DraveFeest",
+   "cat": "Games",
+   "beschr": "Een dorp vol feestdagen met voor elke feestdag een eigen spel, alleen of met z'n tweeen.",
+   "versie": "0.5",
+   "zip": "https://github.com/mbrv4ever/DraveFeest/releases/download/v0.5/DraveFeest-0.5-Windows.zip",
+   "mb": 26,
+   "img": "https://dravenlock.nl/img/apps/DraveFeest.jpg",
+   "github": "https://github.com/mbrv4ever/DraveFeest"
+  },
+  {
    "repo": "DraveKookboek",
    "naam": "DraveKookboek",
    "cat": "Tools en kantoor",
