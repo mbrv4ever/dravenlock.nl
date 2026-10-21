@@ -602,6 +602,12 @@ section.alt-bg {
 .download-card a.dl-src { color:var(--accent); text-decoration:underline; text-underline-offset:3px; }
 .download-card a.dl-src:hover { color:var(--accent-hover); }
 
+.download-card .dl-shot { display:block; width:calc(100% + 56px); max-width:none; margin:-32px -28px 20px; aspect-ratio:16/10;
+    object-fit:cover; object-position:top left; border-bottom:1px solid var(--border); background:#0a0a0c; }
+
+.download-card .dl-leeg { display:flex; align-items:center; justify-content:center; }
+.download-card .dl-leeg img { width:72px; height:72px; opacity:.35; }
+
 /* === Contact === */
 .contact-wrapper {
     max-width: 620px;
