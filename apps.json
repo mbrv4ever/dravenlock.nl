@@ -2,6 +2,17 @@
  "bijgewerkt": "2026-10-23",
  "apps": [
   {
+   "repo": "DravenlockBrowser",
+   "naam": "Dravenlock Browser",
+   "cat": "Web en servers",
+   "beschr": "De Dravenlock-webbrowser: een eigen, privacyvriendelijke browser.",
+   "versie": "5.5.2",
+   "zip": "https://github.com/mbrv4ever/DravenlockBrowser/releases/download/v5.5.2/DravenlockBrowser-5.5.2-Windows.zip",
+   "mb": 305,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/DravenlockBrowser"
+  },
+  {
    "repo": "DraveSeCam",
    "naam": "DraveSeCam",
    "cat": "Systeem en beveiliging",
@@ -242,17 +253,6 @@
    "mb": 132,
    "img": "",
    "github": "https://github.com/mbrv4ever/DraveJavis"
-  },
-  {
-   "repo": "DravenlockBrowser",
-   "naam": "Dravenlock Browser",
-   "cat": "Web en servers",
-   "beschr": "De Dravenlock-webbrowser: een eigen, privacyvriendelijke browser.",
-   "versie": "1.0",
-   "zip": "https://github.com/mbrv4ever/DravenlockBrowser/releases/download/v1.0/DravenlockBrowser-1.0-Windows.zip",
-   "mb": 170,
-   "img": "",
-   "github": "https://github.com/mbrv4ever/DravenlockBrowser"
   },
   {
    "repo": "DraveWeer",
