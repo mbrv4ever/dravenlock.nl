@@ -2,13 +2,244 @@
  "bijgewerkt": "2026-10-23",
  "apps": [
   {
+   "repo": "DraveSeCam",
+   "naam": "DraveSeCam",
+   "cat": "Systeem en beveiliging",
+   "beschr": "Lokale, offline bewakingscamera.",
+   "versie": "0.6.4",
+   "zip": "https://github.com/mbrv4ever/DraveSeCam/releases/download/v0.6.4/DraveSeCam-0.6.4-Windows.zip",
+   "mb": 165,
+   "img": "https://dravenlock.nl/img/apps/DraveSeCam.jpg",
+   "github": "https://github.com/mbrv4ever/DraveSeCam"
+  },
+  {
+   "repo": "DraveOffice",
+   "naam": "DraveOffice",
+   "cat": "Tools en kantoor",
+   "beschr": "Lokale, offline office-suite: tekstverwerker, rekenblad, rekenmachine, kasboek, presentatie, tekenen en database.",
+   "versie": "0.5.2",
+   "zip": "https://github.com/mbrv4ever/DraveOffice/releases/download/v0.5.2/DraveOffice-0.5.2-Windows.zip",
+   "mb": 81,
+   "img": "https://dravenlock.nl/img/apps/DraveOffice.jpg",
+   "github": "https://github.com/mbrv4ever/DraveOffice"
+  },
+  {
+   "repo": "DravePurge",
+   "naam": "DravePurge",
+   "cat": "Systeem en beveiliging",
+   "beschr": "Privacy-opruimer.",
+   "versie": "0.2.10",
+   "zip": "https://github.com/mbrv4ever/DravePurge/releases/download/v0.2.10/DravePurge-0.2.10-Windows.zip",
+   "mb": 36,
+   "img": "https://dravenlock.nl/img/apps/DravePurge.jpg",
+   "github": "https://github.com/mbrv4ever/DravePurge"
+  },
+  {
+   "repo": "DraveRead",
+   "naam": "DraveRead",
+   "cat": "Media en creatief",
+   "beschr": "Voorlezer (tekst-naar-spraak) met natuurlijke, neurale stemmen via Neuvoice. On-device: draait op je eigen pc, geen cloud.",
+   "versie": "0.2.3",
+   "zip": "https://github.com/mbrv4ever/DraveRead/releases/download/v0.2.3/DraveRead-0.2.3-Windows.zip",
+   "mb": 108,
+   "img": "https://dravenlock.nl/img/apps/DraveRead.jpg",
+   "github": "https://github.com/mbrv4ever/DraveRead"
+  },
+  {
+   "repo": "DravePaint",
+   "naam": "DravePaint",
+   "cat": "Media en creatief",
+   "beschr": "Eenvoudige tekenapp met lagen.",
+   "versie": "0.1.13",
+   "zip": "https://github.com/mbrv4ever/DravePaint/releases/download/v0.1.13/DravePaint-0.1.13-Windows.zip",
+   "mb": 109,
+   "img": "https://dravenlock.nl/img/apps/DravePaint.jpg",
+   "github": "https://github.com/mbrv4ever/DravePaint"
+  },
+  {
+   "repo": "DraveEReader",
+   "naam": "DraveEReader",
+   "cat": "Media en creatief",
+   "beschr": "E-boeklezer en voorlezer.",
+   "versie": "0.1.8",
+   "zip": "https://github.com/mbrv4ever/DraveEReader/releases/download/v0.1.8/DraveEReader-0.1.8-Windows.zip",
+   "mb": 99,
+   "img": "https://dravenlock.nl/img/apps/DraveEReader.jpg",
+   "github": "https://github.com/mbrv4ever/DraveEReader"
+  },
+  {
+   "repo": "DraveMind",
+   "naam": "DraveMind",
+   "cat": "AI",
+   "beschr": "Je eigen, lokale AI-werkplek (DraveAI).",
+   "versie": "1.1.1",
+   "zip": "https://github.com/mbrv4ever/DraveMind/releases/download/v1.1.1/DraveMind-1.1.1-Windows.zip",
+   "mb": 279,
+   "img": "https://dravenlock.nl/img/apps/DraveMind.jpg",
+   "github": "https://github.com/mbrv4ever/DraveMind"
+  },
+  {
+   "repo": "KITT-Server",
+   "naam": "KITT-Server",
+   "cat": "Web en servers",
+   "beschr": "Jouw persoonlijke \"hoofdkwartier\" voor DraveKITT Mobile.",
+   "versie": "1.0.4",
+   "zip": "https://github.com/mbrv4ever/KITT-Server/releases/download/v1.0.4/KITT-Server-1.0.4-Windows.zip",
+   "mb": 76,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/KITT-Server"
+  },
+  {
+   "repo": "DraveServer",
+   "naam": "DraveServer",
+   "cat": "Web en servers",
+   "beschr": "Je AI-chat als server.",
+   "versie": "0.31.2",
+   "zip": "https://github.com/mbrv4ever/DraveServer/releases/download/v0.31.2/DraveServer-0.31.2-Windows.zip",
+   "mb": 306,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/DraveServer"
+  },
+  {
+   "repo": "DraveSheet",
+   "naam": "DraveSheet",
+   "cat": "Tools en kantoor",
+   "beschr": "Invulbare D&D character sheets.",
+   "versie": "0.4.4",
+   "zip": "https://github.com/mbrv4ever/DraveSheet/releases/download/v0.4.4/DraveSheet-0.4.4-Windows.zip",
+   "mb": 52,
+   "img": "https://dravenlock.nl/img/apps/DraveSheet.jpg",
+   "github": "https://github.com/mbrv4ever/DraveSheet"
+  },
+  {
+   "repo": "DravePDF",
+   "naam": "DravePDF",
+   "cat": "Tools en kantoor",
+   "beschr": "PDF-gereedschap en ondertekenen.",
+   "versie": "0.17.3",
+   "zip": "https://github.com/mbrv4ever/DravePDF/releases/download/v0.17.3/DravePDF-0.17.3-Windows.zip",
+   "mb": 52,
+   "img": "https://dravenlock.nl/img/apps/DravePDF.jpg",
+   "github": "https://github.com/mbrv4ever/DravePDF"
+  },
+  {
+   "repo": "DraveForms",
+   "naam": "DraveForms",
+   "cat": "Tools en kantoor",
+   "beschr": "Een PDF-lezer die invulbare formulieren kan invullen (dropdowns, tekstvakken, vinkjes) EN tekst aan een bestaande PDF kan toevoegen - ook formulieren die normaal alleen in Adobe werken. Lokaal, offline, gratis (met donatie).",
+   "versie": "0.8.3",
+   "zip": "https://github.com/mbrv4ever/DraveForms/releases/download/v0.8.3/DraveForms-0.8.3-Windows.zip",
+   "mb": 52,
+   "img": "https://dravenlock.nl/img/apps/DraveForms.jpg",
+   "github": "https://github.com/mbrv4ever/DraveForms"
+  },
+  {
+   "repo": "DraveGames",
+   "naam": "DraveGames",
+   "cat": "Games",
+   "beschr": "Sport-minigames in C64/Atari-stijl met medailles. Vier onderdelen, winter en zomer, voor 1 speler (medailles halen) of 2 spelers om-en-om op dezelfde pc.",
+   "versie": "0.1.8",
+   "zip": "https://github.com/mbrv4ever/DraveGames/releases/download/v0.1.8/DraveGames-0.1.8-Windows.zip",
+   "mb": 57,
+   "img": "https://dravenlock.nl/img/apps/DraveGames.jpg",
+   "github": "https://github.com/mbrv4ever/DraveGames"
+  },
+  {
+   "repo": "DraveKITT",
+   "naam": "DraveKITT",
+   "cat": "AI",
+   "beschr": "Een pratende KITT-achtige assistent (Knight Rider-sfeer) die lokaal op je pc draait.",
+   "versie": "1.0.3",
+   "zip": "https://github.com/mbrv4ever/DraveKITT/releases/download/v1.0.3/DraveKITT-1.0.3-Windows.zip",
+   "mb": 123,
+   "img": "https://dravenlock.nl/img/apps/DraveKITT.jpg",
+   "github": "https://github.com/mbrv4ever/DraveKITT"
+  },
+  {
+   "repo": "DraveChat",
+   "naam": "DraveChat",
+   "cat": "AI",
+   "beschr": "Een lokale AI-chat: praat met een taalmodel op je eigen pc, zonder cloud.",
+   "versie": "1.0.2",
+   "zip": "https://github.com/mbrv4ever/DraveChat/releases/download/v1.0.2/DraveChat-1.0.2-Windows.zip",
+   "mb": 322,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/DraveChat"
+  },
+  {
+   "repo": "DraveTranslate",
+   "naam": "DraveTranslate",
+   "cat": "Tools en kantoor",
+   "beschr": "Offline vertaler.",
+   "versie": "0.1.3",
+   "zip": "https://github.com/mbrv4ever/DraveTranslate/releases/download/v0.1.3/DraveTranslate-0.1.3-Windows.zip",
+   "mb": 270,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/DraveTranslate"
+  },
+  {
+   "repo": "DraveSchrijf",
+   "naam": "DraveSchrijf",
+   "cat": "Tools en kantoor",
+   "beschr": "Rustig schrijven aan je boek, met inspreken en voorlezen.",
+   "versie": "1.0.1",
+   "zip": "https://github.com/mbrv4ever/DraveSchrijf/releases/download/v1.0.1/DraveSchrijf-1.0.1-Windows.zip",
+   "mb": 123,
+   "img": "https://dravenlock.nl/img/apps/DraveSchrijf.jpg",
+   "github": "https://github.com/mbrv4ever/DraveSchrijf"
+  },
+  {
+   "repo": "DraveKookboek",
+   "naam": "DraveKookboek",
+   "cat": "Tools en kantoor",
+   "beschr": "Je eigen recepten met kookstand, voorlezen en kookwekkers.",
+   "versie": "1.0.2",
+   "zip": "https://github.com/mbrv4ever/DraveKookboek/releases/download/v1.0.2/DraveKookboek-1.0.2-Windows.zip",
+   "mb": 73,
+   "img": "https://dravenlock.nl/img/apps/DraveKookboek.jpg",
+   "github": "https://github.com/mbrv4ever/DraveKookboek"
+  },
+  {
+   "repo": "DraveAgenda",
+   "naam": "DraveAgenda",
+   "cat": "Tools en kantoor",
+   "beschr": "Een grote, duidelijke agenda met herinneringen die ook worden voorgelezen.",
+   "versie": "1.0.1",
+   "zip": "https://github.com/mbrv4ever/DraveAgenda/releases/download/v1.0.1/DraveAgenda-1.0.1-Windows.zip",
+   "mb": 73,
+   "img": "https://dravenlock.nl/img/apps/DraveAgenda.jpg",
+   "github": "https://github.com/mbrv4ever/DraveAgenda"
+  },
+  {
+   "repo": "DeskButler",
+   "naam": "DeskButler",
+   "cat": "Systeem en beveiliging",
+   "beschr": "DeskButler: je digitale butler voor e-mail, taken, notities, downloads en meer, in één venster.",
+   "versie": "6.7.1",
+   "zip": "https://github.com/mbrv4ever/DeskButler/releases/download/v6.7.1/DeskButler-6.7.1-Windows.zip",
+   "mb": 272,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/DeskButler"
+  },
+  {
+   "repo": "DraveMotion",
+   "naam": "DraveMotion",
+   "cat": "Media en creatief",
+   "beschr": "Een portable animatie- en videostudio: tekenen, tijdlijn en exporteren, alles lokaal.",
+   "versie": "0.40.2",
+   "zip": "https://github.com/mbrv4ever/DraveMotion/releases/download/v0.40.2/DraveMotion-0.40.2-Windows.zip",
+   "mb": 157,
+   "img": "https://dravenlock.nl/img/apps/DraveMotion.jpg",
+   "github": "https://github.com/mbrv4ever/DraveMotion"
+  },
+  {
    "repo": "DraveJavis",
    "naam": "DraveJavis",
    "cat": "AI",
    "beschr": "Een lokale, privé spraakassistent: praat via de microfoon, hij antwoordt met een echte stem, zoekt zelf online en kan je pc bedienen.",
-   "versie": "1.1",
-   "zip": "https://github.com/mbrv4ever/DraveJavis/releases/download/v1.1/DraveJavis-1.1-Windows.zip",
-   "mb": 135,
+   "versie": "1.1.1",
+   "zip": "https://github.com/mbrv4ever/DraveJavis/releases/download/v1.1.1/DraveJavis-1.1.1-Windows.zip",
+   "mb": 132,
    "img": "",
    "github": "https://github.com/mbrv4ever/DraveJavis"
   },
@@ -35,17 +266,6 @@
    "github": "https://github.com/mbrv4ever/DraveWeer"
   },
   {
-   "repo": "DraveSheet",
-   "naam": "DraveSheet",
-   "cat": "Tools en kantoor",
-   "beschr": "Invulbare D&D character sheets.",
-   "versie": "0.4.3",
-   "zip": "https://github.com/mbrv4ever/DraveSheet/releases/download/v0.4.3/DraveSheet-0.4.3-Windows.zip",
-   "mb": 52,
-   "img": "https://dravenlock.nl/img/apps/DraveSheet.jpg",
-   "github": "https://github.com/mbrv4ever/DraveSheet"
-  },
-  {
    "repo": "DraveBeurs",
    "naam": "DraveBeurs",
    "cat": "Tools en kantoor",
@@ -55,17 +275,6 @@
    "mb": 36,
    "img": "https://dravenlock.nl/img/apps/DraveBeurs.jpg",
    "github": "https://github.com/mbrv4ever/DraveBeurs"
-  },
-  {
-   "repo": "DeskButler",
-   "naam": "DeskButler",
-   "cat": "Systeem en beveiliging",
-   "beschr": "DeskButler: je digitale butler voor e-mail, taken, notities, downloads en meer, in één venster.",
-   "versie": "6.7",
-   "zip": "https://github.com/mbrv4ever/DeskButler/releases/download/v6.7/DeskButler-6.7-Windows.zip",
-   "mb": 265,
-   "img": "",
-   "github": "https://github.com/mbrv4ever/DeskButler"
   },
   {
    "repo": "DraveMedia",
@@ -79,94 +288,6 @@
    "github": "https://github.com/mbrv4ever/DraveMedia"
   },
   {
-   "repo": "DraveMind",
-   "naam": "DraveMind",
-   "cat": "AI",
-   "beschr": "Je eigen, lokale AI-werkplek (DraveAI).",
-   "versie": "1.1.0",
-   "zip": "https://github.com/mbrv4ever/DraveMind/releases/download/v1.1.0/DraveMind-1.1.0-Windows.zip",
-   "mb": 279,
-   "img": "https://dravenlock.nl/img/apps/DraveMind.jpg",
-   "github": "https://github.com/mbrv4ever/DraveMind"
-  },
-  {
-   "repo": "KITT-Server",
-   "naam": "KITT-Server",
-   "cat": "Web en servers",
-   "beschr": "Jouw persoonlijke \"hoofdkwartier\" voor DraveKITT Mobile.",
-   "versie": "1.0.3",
-   "zip": "https://github.com/mbrv4ever/KITT-Server/releases/download/v1.0.3/KITT-Server-1.0.3-Windows.zip",
-   "mb": 76,
-   "img": "",
-   "github": "https://github.com/mbrv4ever/KITT-Server"
-  },
-  {
-   "repo": "DraveGames",
-   "naam": "DraveGames",
-   "cat": "Games",
-   "beschr": "Sport-minigames in C64/Atari-stijl met medailles. Vier onderdelen, winter en zomer, voor 1 speler (medailles halen) of 2 spelers om-en-om op dezelfde pc.",
-   "versie": "0.1.7",
-   "zip": "https://github.com/mbrv4ever/DraveGames/releases/download/v0.1.7/DraveGames-0.1.7-Windows.zip",
-   "mb": 57,
-   "img": "https://dravenlock.nl/img/apps/DraveGames.jpg",
-   "github": "https://github.com/mbrv4ever/DraveGames"
-  },
-  {
-   "repo": "DraveTranslate",
-   "naam": "DraveTranslate",
-   "cat": "Tools en kantoor",
-   "beschr": "Offline vertaler.",
-   "versie": "0.1.2",
-   "zip": "https://github.com/mbrv4ever/DraveTranslate/releases/download/v0.1.2/DraveTranslate-0.1.2-Windows.zip",
-   "mb": 270,
-   "img": "",
-   "github": "https://github.com/mbrv4ever/DraveTranslate"
-  },
-  {
-   "repo": "DravePDF",
-   "naam": "DravePDF",
-   "cat": "Tools en kantoor",
-   "beschr": "PDF-gereedschap en ondertekenen.",
-   "versie": "0.17.2",
-   "zip": "https://github.com/mbrv4ever/DravePDF/releases/download/v0.17.2/DravePDF-0.17.2-Windows.zip",
-   "mb": 52,
-   "img": "https://dravenlock.nl/img/apps/DravePDF.jpg",
-   "github": "https://github.com/mbrv4ever/DravePDF"
-  },
-  {
-   "repo": "DraveForms",
-   "naam": "DraveForms",
-   "cat": "Tools en kantoor",
-   "beschr": "Een PDF-lezer die invulbare formulieren kan invullen (dropdowns, tekstvakken, vinkjes) EN tekst aan een bestaande PDF kan toevoegen - ook formulieren die normaal alleen in Adobe werken. Lokaal, offline, gratis (met donatie).",
-   "versie": "0.8.2",
-   "zip": "https://github.com/mbrv4ever/DraveForms/releases/download/v0.8.2/DraveForms-0.8.2-Windows.zip",
-   "mb": 52,
-   "img": "https://dravenlock.nl/img/apps/DraveForms.jpg",
-   "github": "https://github.com/mbrv4ever/DraveForms"
-  },
-  {
-   "repo": "DraveKITT",
-   "naam": "DraveKITT",
-   "cat": "AI",
-   "beschr": "Een pratende KITT-achtige assistent (Knight Rider-sfeer) die lokaal op je pc draait.",
-   "versie": "1.0.2",
-   "zip": "https://github.com/mbrv4ever/DraveKITT/releases/download/v1.0.2/DraveKITT-1.0.2-Windows.zip",
-   "mb": 123,
-   "img": "https://dravenlock.nl/img/apps/DraveKITT.jpg",
-   "github": "https://github.com/mbrv4ever/DraveKITT"
-  },
-  {
-   "repo": "DraveAgenda",
-   "naam": "DraveAgenda",
-   "cat": "Tools en kantoor",
-   "beschr": "Rustige agenda met grote letters, herinneringen en een stem die voorleest wat er vandaag staat.",
-   "versie": "1.0",
-   "zip": "https://github.com/mbrv4ever/DraveAgenda/releases/download/v1.0/DraveAgenda-1.0-Windows.zip",
-   "mb": 73,
-   "img": "https://dravenlock.nl/img/apps/DraveAgenda.jpg",
-   "github": "https://github.com/mbrv4ever/DraveAgenda"
-  },
-  {
    "repo": "DraveFeest",
    "naam": "DraveFeest",
    "cat": "Games",
@@ -178,17 +299,6 @@
    "github": "https://github.com/mbrv4ever/DraveFeest"
   },
   {
-   "repo": "DraveKookboek",
-   "naam": "DraveKookboek",
-   "cat": "Tools en kantoor",
-   "beschr": "Je eigen recepten met kookstand, voorlezen en kookwekkers.",
-   "versie": "1.0.1",
-   "zip": "https://github.com/mbrv4ever/DraveKookboek/releases/download/v1.0.1/DraveKookboek-1.0.1-Windows.zip",
-   "mb": 73,
-   "img": "https://dravenlock.nl/img/apps/DraveKookboek.jpg",
-   "github": "https://github.com/mbrv4ever/DraveKookboek"
-  },
-  {
    "repo": "DraveFoto",
    "naam": "DraveFoto",
    "cat": "Media en creatief",
@@ -198,17 +308,6 @@
    "mb": 49,
    "img": "https://dravenlock.nl/img/apps/DraveFoto.jpg",
    "github": "https://github.com/mbrv4ever/DraveFoto"
-  },
-  {
-   "repo": "DraveSchrijf",
-   "naam": "DraveSchrijf",
-   "cat": "Tools en kantoor",
-   "beschr": "Rustig schrijven aan je boek, met inspreken en voorlezen.",
-   "versie": "1.0",
-   "zip": "https://github.com/mbrv4ever/DraveSchrijf/releases/download/v1.0/DraveSchrijf-1.0-Windows.zip",
-   "mb": 123,
-   "img": "https://dravenlock.nl/img/apps/DraveSchrijf.jpg",
-   "github": "https://github.com/mbrv4ever/DraveSchrijf"
   },
   {
    "repo": "dravesetup",
@@ -253,17 +352,6 @@
    "mb": 36,
    "img": "https://dravenlock.nl/img/apps/DraveAPK.jpg",
    "github": "https://github.com/mbrv4ever/DraveAPK"
-  },
-  {
-   "repo": "DraveServer",
-   "naam": "DraveServer",
-   "cat": "Web en servers",
-   "beschr": "Je AI-chat als server.",
-   "versie": "0.31.1",
-   "zip": "https://github.com/mbrv4ever/DraveServer/releases/download/v0.31.1/DraveServer-0.31.1-Windows.zip",
-   "mb": 305,
-   "img": "",
-   "github": "https://github.com/mbrv4ever/DraveServer"
   },
   {
    "repo": "DraveOnion",
@@ -319,17 +407,6 @@
    "mb": 40,
    "img": "https://dravenlock.nl/img/apps/DravePack.jpg",
    "github": "https://github.com/mbrv4ever/DravePack"
-  },
-  {
-   "repo": "DraveOffice",
-   "naam": "DraveOffice",
-   "cat": "Tools en kantoor",
-   "beschr": "Lokale, offline office-suite: tekstverwerker, rekenblad, rekenmachine, kasboek, presentatie, tekenen en database.",
-   "versie": "0.5.1",
-   "zip": "https://github.com/mbrv4ever/DraveOffice/releases/download/v0.5.1/DraveOffice-0.5.1-Windows.zip",
-   "mb": 81,
-   "img": "https://dravenlock.nl/img/apps/DraveOffice.jpg",
-   "github": "https://github.com/mbrv4ever/DraveOffice"
   },
   {
    "repo": "DraveNote",
@@ -420,28 +497,6 @@
    "github": "https://github.com/mbrv4ever/DraveUninstal"
   },
   {
-   "repo": "DraveSeCam",
-   "naam": "DraveSeCam",
-   "cat": "Systeem en beveiliging",
-   "beschr": "Lokale, offline bewakingscamera.",
-   "versie": "0.6.3",
-   "zip": "https://github.com/mbrv4ever/DraveSeCam/releases/download/v0.6.3/DraveSeCam-0.6.3-Windows.zip",
-   "mb": 165,
-   "img": "https://dravenlock.nl/img/apps/DraveSeCam.jpg",
-   "github": "https://github.com/mbrv4ever/DraveSeCam"
-  },
-  {
-   "repo": "DravePurge",
-   "naam": "DravePurge",
-   "cat": "Systeem en beveiliging",
-   "beschr": "Privacy-opruimer.",
-   "versie": "0.2.9",
-   "zip": "https://github.com/mbrv4ever/DravePurge/releases/download/v0.2.9/DravePurge-0.2.9-Windows.zip",
-   "mb": 36,
-   "img": "https://dravenlock.nl/img/apps/DravePurge.jpg",
-   "github": "https://github.com/mbrv4ever/DravePurge"
-  },
-  {
    "repo": "DraveGuard",
    "naam": "DraveGuard",
    "cat": "Systeem en beveiliging",
@@ -497,50 +552,6 @@
    "github": "https://github.com/mbrv4ever/DraveSound"
   },
   {
-   "repo": "DraveRead",
-   "naam": "DraveRead",
-   "cat": "Media en creatief",
-   "beschr": "Voorlezer (tekst-naar-spraak) met natuurlijke, neurale stemmen via Neuvoice. On-device: draait op je eigen pc, geen cloud.",
-   "versie": "0.2.1",
-   "zip": "https://github.com/mbrv4ever/DraveRead/releases/download/v0.2.1/DraveRead-0.2.1-Windows.zip",
-   "mb": 108,
-   "img": "https://dravenlock.nl/img/apps/DraveRead.jpg",
-   "github": "https://github.com/mbrv4ever/DraveRead"
-  },
-  {
-   "repo": "DravePaint",
-   "naam": "DravePaint",
-   "cat": "Media en creatief",
-   "beschr": "Eenvoudige tekenapp met lagen.",
-   "versie": "0.1.12",
-   "zip": "https://github.com/mbrv4ever/DravePaint/releases/download/v0.1.12/DravePaint-0.1.12-Windows.zip",
-   "mb": 109,
-   "img": "https://dravenlock.nl/img/apps/DravePaint.jpg",
-   "github": "https://github.com/mbrv4ever/DravePaint"
-  },
-  {
-   "repo": "DraveMotion",
-   "naam": "DraveMotion",
-   "cat": "Media en creatief",
-   "beschr": "Een portable animatie- en videostudio: tekenen, tijdlijn en exporteren, alles lokaal.",
-   "versie": "0.40.1",
-   "zip": "https://github.com/mbrv4ever/DraveMotion/releases/download/v0.40.1/DraveMotion-0.40.1-Windows.zip",
-   "mb": 157,
-   "img": "https://dravenlock.nl/img/apps/DraveMotion.jpg",
-   "github": "https://github.com/mbrv4ever/DraveMotion"
-  },
-  {
-   "repo": "DraveEReader",
-   "naam": "DraveEReader",
-   "cat": "Media en creatief",
-   "beschr": "E-boeklezer en voorlezer.",
-   "versie": "0.1.6",
-   "zip": "https://github.com/mbrv4ever/DraveEReader/releases/download/v0.1.6/DraveEReader-0.1.6-Windows.zip",
-   "mb": 98,
-   "img": "https://dravenlock.nl/img/apps/DraveEReader.jpg",
-   "github": "https://github.com/mbrv4ever/DraveEReader"
-  },
-  {
    "repo": "DravenCrawl",
    "naam": "DravenCrawl",
    "cat": "Games",
@@ -561,17 +572,6 @@
    "mb": 35,
    "img": "https://dravenlock.nl/img/apps/DraveDice.jpg",
    "github": "https://github.com/mbrv4ever/DraveDice"
-  },
-  {
-   "repo": "DraveChat",
-   "naam": "DraveChat",
-   "cat": "AI",
-   "beschr": "Een lokale AI-chat: praat met een taalmodel op je eigen pc, zonder cloud.",
-   "versie": "1.0.1",
-   "zip": "https://github.com/mbrv4ever/DraveChat/releases/download/v1.0.1/DraveChat-1.0.1-Windows.zip",
-   "mb": 318,
-   "img": "",
-   "github": "https://github.com/mbrv4ever/DraveChat"
   },
   {
    "repo": "DraveStudio",
