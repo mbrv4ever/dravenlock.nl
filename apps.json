@@ -2,6 +2,72 @@
  "bijgewerkt": "2026-10-23",
  "apps": [
   {
+   "repo": "DravenlockBrowser",
+   "naam": "Dravenlock Browser",
+   "cat": "Web en servers",
+   "beschr": "De Dravenlock-webbrowser: een eigen, privacyvriendelijke browser.",
+   "versie": "1.0",
+   "zip": "https://github.com/mbrv4ever/DravenlockBrowser/releases/download/v1.0/DravenlockBrowser-1.0-Windows.zip",
+   "mb": 170,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/DravenlockBrowser"
+  },
+  {
+   "repo": "DraveWeer",
+   "naam": "DraveWeer",
+   "cat": "Tools en kantoor",
+   "beschr": "Het weerbericht en de verwachting voor jouw plaats, groot en duidelijk.",
+   "versie": "1.1.0",
+   "zip": "https://github.com/mbrv4ever/DraveWeer/releases/download/v1.1.0/DraveWeer-1.1.0-Windows.zip",
+   "mb": 36,
+   "img": "https://dravenlock.nl/img/apps/DraveWeer.jpg",
+   "github": "https://github.com/mbrv4ever/DraveWeer"
+  },
+  {
+   "repo": "DraveSheet",
+   "naam": "DraveSheet",
+   "cat": "Tools en kantoor",
+   "beschr": "Invulbare D&D character sheets.",
+   "versie": "0.4.3",
+   "zip": "https://github.com/mbrv4ever/DraveSheet/releases/download/v0.4.3/DraveSheet-0.4.3-Windows.zip",
+   "mb": 52,
+   "img": "https://dravenlock.nl/img/apps/DraveSheet.jpg",
+   "github": "https://github.com/mbrv4ever/DraveSheet"
+  },
+  {
+   "repo": "DraveBeurs",
+   "naam": "DraveBeurs",
+   "cat": "Tools en kantoor",
+   "beschr": "Volg aandelen en koersen op een overzichtelijk dashboard.",
+   "versie": "1.0.1",
+   "zip": "https://github.com/mbrv4ever/DraveBeurs/releases/download/v1.0.1/DraveBeurs-1.0.1-Windows.zip",
+   "mb": 36,
+   "img": "https://dravenlock.nl/img/apps/DraveBeurs.jpg",
+   "github": "https://github.com/mbrv4ever/DraveBeurs"
+  },
+  {
+   "repo": "DeskButler",
+   "naam": "DeskButler",
+   "cat": "Systeem en beveiliging",
+   "beschr": "DeskButler: je digitale butler voor e-mail, taken, notities, downloads en meer, in één venster.",
+   "versie": "6.7",
+   "zip": "https://github.com/mbrv4ever/DeskButler/releases/download/v6.7/DeskButler-6.7-Windows.zip",
+   "mb": 265,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/DeskButler"
+  },
+  {
+   "repo": "DraveMedia",
+   "naam": "DraveMedia",
+   "cat": "Media en creatief",
+   "beschr": "Alles-in-een mediaspeler (Dravenlock).",
+   "versie": "0.28",
+   "zip": "https://github.com/mbrv4ever/DraveMedia/releases/download/v0.28/DraveMedia-0.28-Windows.zip",
+   "mb": 208,
+   "img": "https://dravenlock.nl/img/apps/DraveMedia.jpg",
+   "github": "https://github.com/mbrv4ever/DraveMedia"
+  },
+  {
    "repo": "DraveMind",
    "naam": "DraveMind",
    "cat": "AI",
@@ -44,17 +110,6 @@
    "mb": 270,
    "img": "",
    "github": "https://github.com/mbrv4ever/DraveTranslate"
-  },
-  {
-   "repo": "DraveSheet",
-   "naam": "DraveSheet",
-   "cat": "Tools en kantoor",
-   "beschr": "Invulbare D&D character sheets.",
-   "versie": "0.4.3",
-   "zip": "https://github.com/mbrv4ever/DraveSheet/releases/download/v0.4.3/DraveSheet-0.4.3-Windows.zip",
-   "mb": 52,
-   "img": "https://dravenlock.nl/img/apps/DraveSheet.jpg",
-   "github": "https://github.com/mbrv4ever/DraveSheet"
   },
   {
    "repo": "DravePDF",
@@ -222,17 +277,6 @@
    "github": "https://github.com/mbrv4ever/DraveZoom"
   },
   {
-   "repo": "DraveWeer",
-   "naam": "DraveWeer",
-   "cat": "Tools en kantoor",
-   "beschr": "Het weerbericht en de verwachting voor jouw plaats, groot en duidelijk.",
-   "versie": "1.0.1",
-   "zip": "https://github.com/mbrv4ever/DraveWeer/releases/download/v1.0.1/DraveWeer-1.0.1-Windows.zip",
-   "mb": 36,
-   "img": "https://dravenlock.nl/img/apps/DraveWeer.jpg",
-   "github": "https://github.com/mbrv4ever/DraveWeer"
-  },
-  {
    "repo": "DraveTag",
    "naam": "DraveTag",
    "cat": "Tools en kantoor",
@@ -341,17 +385,6 @@
    "mb": 35,
    "img": "https://dravenlock.nl/img/apps/DraveCodex.jpg",
    "github": "https://github.com/mbrv4ever/DraveCodex"
-  },
-  {
-   "repo": "DraveBeurs",
-   "naam": "DraveBeurs",
-   "cat": "Tools en kantoor",
-   "beschr": "Volg aandelen en koersen op een overzichtelijk dashboard.",
-   "versie": "1.0.1",
-   "zip": "https://github.com/mbrv4ever/DraveBeurs/releases/download/v1.0.1/DraveBeurs-1.0.1-Windows.zip",
-   "mb": 36,
-   "img": "https://dravenlock.nl/img/apps/DraveBeurs.jpg",
-   "github": "https://github.com/mbrv4ever/DraveBeurs"
   },
   {
    "repo": "DraveVault",
@@ -470,7 +503,7 @@
    "beschr": "Eenvoudige tekenapp met lagen.",
    "versie": "0.1.12",
    "zip": "https://github.com/mbrv4ever/DravePaint/releases/download/v0.1.12/DravePaint-0.1.12-Windows.zip",
-   "mb": 108,
+   "mb": 109,
    "img": "https://dravenlock.nl/img/apps/DravePaint.jpg",
    "github": "https://github.com/mbrv4ever/DravePaint"
   },
@@ -528,39 +561,6 @@
    "mb": 318,
    "img": "",
    "github": "https://github.com/mbrv4ever/DraveChat"
-  },
-  {
-   "repo": "DeskButler",
-   "naam": "DeskButler",
-   "cat": "Systeem en beveiliging",
-   "beschr": "Je digitale butler voor e-mail, taken, notities, downloads en meer, in één venster.",
-   "versie": "6.7",
-   "zip": "https://github.com/mbrv4ever/DeskButler/releases/download/v6.7/DeskButler-6.7-Windows.zip",
-   "mb": 265,
-   "img": "",
-   "github": "https://github.com/mbrv4ever/DeskButler"
-  },
-  {
-   "repo": "DraveMedia",
-   "naam": "DraveMedia",
-   "cat": "Media en creatief",
-   "beschr": "Alles-in-een mediaspeler (Dravenlock).",
-   "versie": "0.28",
-   "zip": "https://github.com/mbrv4ever/DraveMedia/releases/download/v0.28/DraveMedia-0.28-Windows.zip",
-   "mb": 208,
-   "img": "https://dravenlock.nl/img/apps/DraveMedia.jpg",
-   "github": "https://github.com/mbrv4ever/DraveMedia"
-  },
-  {
-   "repo": "DravenlockBrowser",
-   "naam": "Dravenlock Browser",
-   "cat": "Web en servers",
-   "beschr": "De Dravenlock-webbrowser: een eigen, privacyvriendelijke browser.",
-   "versie": "1.0",
-   "zip": "https://github.com/mbrv4ever/DravenlockBrowser/releases/download/v1.0/DravenlockBrowser-1.0-Windows.zip",
-   "mb": 170,
-   "img": "",
-   "github": "https://github.com/mbrv4ever/DravenlockBrowser"
   },
   {
    "repo": "DraveStudio",
