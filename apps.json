@@ -2,6 +2,28 @@
  "bijgewerkt": "2026-10-23",
  "apps": [
   {
+   "repo": "DraveMind",
+   "naam": "DraveMind",
+   "cat": "AI",
+   "beschr": "Je eigen, lokale AI-werkplek (DraveAI).",
+   "versie": "1.1.0",
+   "zip": "https://github.com/mbrv4ever/DraveMind/releases/download/v1.1.0/DraveMind-1.1.0-Windows.zip",
+   "mb": 279,
+   "img": "https://dravenlock.nl/img/apps/DraveMind.jpg",
+   "github": "https://github.com/mbrv4ever/DraveMind"
+  },
+  {
+   "repo": "KITT-Server",
+   "naam": "KITT-Server",
+   "cat": "Web en servers",
+   "beschr": "Jouw persoonlijke \"hoofdkwartier\" voor DraveKITT Mobile.",
+   "versie": "1.0.3",
+   "zip": "https://github.com/mbrv4ever/KITT-Server/releases/download/v1.0.3/KITT-Server-1.0.3-Windows.zip",
+   "mb": 76,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/KITT-Server"
+  },
+  {
    "repo": "DraveGames",
    "naam": "DraveGames",
    "cat": "Games",
@@ -22,17 +44,6 @@
    "mb": 270,
    "img": "",
    "github": "https://github.com/mbrv4ever/DraveTranslate"
-  },
-  {
-   "repo": "KITT-Server",
-   "naam": "KITT-Server",
-   "cat": "Web en servers",
-   "beschr": "Jouw persoonlijke \"hoofdkwartier\" voor DraveKITT Mobile.",
-   "versie": "1.0.2",
-   "zip": "https://github.com/mbrv4ever/KITT-Server/releases/download/v1.0.2/KITT-Server-1.0.2-Windows.zip",
-   "mb": 65,
-   "img": "",
-   "github": "https://github.com/mbrv4ever/KITT-Server"
   },
   {
    "repo": "DraveSheet",
@@ -66,17 +77,6 @@
    "mb": 52,
    "img": "https://dravenlock.nl/img/apps/DraveForms.jpg",
    "github": "https://github.com/mbrv4ever/DraveForms"
-  },
-  {
-   "repo": "DraveMind",
-   "naam": "DraveMind",
-   "cat": "AI",
-   "beschr": "Je eigen, lokale AI-werkplek (DraveAI).",
-   "versie": "1.0.2",
-   "zip": "https://github.com/mbrv4ever/DraveMind/releases/download/v1.0.2/DraveMind-1.0.2-Windows.zip",
-   "mb": 243,
-   "img": "https://dravenlock.nl/img/apps/DraveMind.jpg",
-   "github": "https://github.com/mbrv4ever/DraveMind"
   },
   {
    "repo": "DraveKITT",
