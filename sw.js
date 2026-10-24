@@ -11,7 +11,7 @@
    weggegooid en gebruikers direct de nieuwe assets krijgen.
    ========================================================== */
 
-const CACHE_VERSION = 'dravenlock-v1.9.0';
+const CACHE_VERSION = 'dravenlock-v1.9.1';
 
 // Relatief aan de SW-locatie. Bv. als sw.js in /test/ staat, dan
 // worden alle paden relatief aan /test/ - geen hardcoded /css/
@@ -73,6 +73,9 @@ self.addEventListener('fetch', (event) => {
     // Externe downloads (de .exe bestanden) niet cachen - die zijn
     // groot en moeten altijd vers
     if (req.url.includes('/downloads/')) return;
+
+    // Uitlegvideo's niet cachen (groot, en de browser vraagt ze in stukjes op)
+    if (req.url.includes('/video/')) return;
 
     event.respondWith(
         caches.match(req).then((cachedResponse) => {
