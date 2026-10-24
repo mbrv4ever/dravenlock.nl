@@ -1,6 +1,17 @@
 {
- "bijgewerkt": "2026-10-23",
+ "bijgewerkt": "2026-10-24",
  "apps": [
+  {
+   "repo": "DraveFeest",
+   "naam": "DraveFeest",
+   "cat": "Games",
+   "beschr": "Een dorp vol feestdagen met voor elke feestdag een eigen spel, alleen of met z'n tweeen.",
+   "versie": "0.6",
+   "zip": "https://github.com/mbrv4ever/DraveFeest/releases/download/v0.6/DraveFeest-0.6-Windows.zip",
+   "mb": 26,
+   "img": "https://dravenlock.nl/img/apps/DraveFeest.jpg",
+   "github": "https://github.com/mbrv4ever/DraveFeest"
+  },
   {
    "repo": "DravenlockBrowser",
    "naam": "Dravenlock Browser",
@@ -286,17 +297,6 @@
    "mb": 208,
    "img": "https://dravenlock.nl/img/apps/DraveMedia.jpg",
    "github": "https://github.com/mbrv4ever/DraveMedia"
-  },
-  {
-   "repo": "DraveFeest",
-   "naam": "DraveFeest",
-   "cat": "Games",
-   "beschr": "Een dorp vol feestdagen met voor elke feestdag een eigen spel, alleen of met z'n tweeen.",
-   "versie": "0.5",
-   "zip": "https://github.com/mbrv4ever/DraveFeest/releases/download/v0.5/DraveFeest-0.5-Windows.zip",
-   "mb": 26,
-   "img": "https://dravenlock.nl/img/apps/DraveFeest.jpg",
-   "github": "https://github.com/mbrv4ever/DraveFeest"
   },
   {
    "repo": "DraveFoto",
