@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-25",
+ "bijgewerkt": "2026-10-26",
  "apps": [
   {
    "repo": "DraveFeest",
@@ -501,8 +501,8 @@
    "naam": "DraveGuard",
    "cat": "Systeem en beveiliging",
    "beschr": "Beveiliger en opschoner voor je pc. Met Totaal onderhoud: virussen, rommel, adware, browser, schijf en programma-updates in één keer.",
-   "versie": "1.1.0",
-   "zip": "https://github.com/mbrv4ever/DraveGuard/releases/download/v1.1.0/DraveGuard-1.1.0-Windows.zip",
+   "versie": "1.1.1",
+   "zip": "https://github.com/mbrv4ever/DraveGuard/releases/download/v1.1.1/DraveGuard-1.1.1-Windows.zip",
    "mb": 228,
    "img": "https://dravenlock.nl/img/apps/DraveGuard.jpg",
    "github": "https://github.com/mbrv4ever/DraveGuard"
