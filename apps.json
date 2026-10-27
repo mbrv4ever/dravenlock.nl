@@ -420,17 +420,6 @@
    "github": "https://github.com/mbrv4ever/DraveBeurs"
   },
   {
-   "repo": "DraveAgenda",
-   "naam": "DraveAgenda",
-   "cat": "Tools en kantoor",
-   "beschr": "Een grote, duidelijke agenda met herinneringen die ook worden voorgelezen.",
-   "versie": "1.0.1",
-   "zip": "https://github.com/mbrv4ever/DraveAgenda/releases/download/v1.0.1/DraveAgenda-1.0.1-Windows.zip",
-   "mb": 73,
-   "img": "https://dravenlock.nl/img/apps/DraveAgenda.jpg",
-   "github": "https://github.com/mbrv4ever/DraveAgenda"
-  },
-  {
    "repo": "DraveTranslate",
    "naam": "DraveTranslate",
    "cat": "Tools en kantoor",
@@ -594,6 +583,39 @@
    "mb": 36,
    "img": "https://dravenlock.nl/img/apps/DraveWeer.jpg",
    "github": "https://github.com/mbrv4ever/DraveWeer"
+  },
+  {
+   "repo": "DraveGoedNieuws",
+   "naam": "DraveGoedNieuws",
+   "cat": "Media en creatief",
+   "beschr": "Alleen goed nieuws: positieve berichten uit Nederland en de wereld, groot en rustig. Engelse berichten kun je laten vertalen, en Leon leest voor.",
+   "versie": "0.1",
+   "zip": "https://github.com/mbrv4ever/DraveGoedNieuws/releases/download/v0.1/DraveGoedNieuws-0.1-Windows.zip",
+   "mb": 132,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/DraveGoedNieuws"
+  },
+  {
+   "repo": "DraveKas",
+   "naam": "DraveKas",
+   "cat": "Tools en kantoor",
+   "beschr": "Je huishoudboekje, groot en duidelijk: zie meteen wat er deze maand nog over is. Met vaste lasten, spaardoelen en voorlezen. Op de pc én je Android-telefoon.",
+   "versie": "0.1",
+   "zip": "https://github.com/mbrv4ever/DraveKas/releases/download/v0.1/DraveKas-0.1-Windows.zip",
+   "mb": 110,
+   "img": "https://dravenlock.nl/img/apps/DraveKas.jpg",
+   "github": "https://github.com/mbrv4ever/DraveKas"
+  },
+  {
+   "repo": "DraveAgenda",
+   "naam": "DraveAgenda",
+   "cat": "Tools en kantoor",
+   "beschr": "Een grote, duidelijke agenda met herinneringen die ook worden voorgelezen. Nu ook op je Android-telefoon: thuis en onderweg bijwerken, met meldingen.",
+   "versie": "1.1.0",
+   "zip": "https://github.com/mbrv4ever/DraveAgenda/releases/download/v1.1.0/DraveAgenda-1.1.0-Windows.zip",
+   "mb": 72,
+   "img": "https://dravenlock.nl/img/apps/DraveAgenda.jpg",
+   "github": "https://github.com/mbrv4ever/DraveAgenda"
   }
  ]
 }
