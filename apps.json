@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-27",
+ "bijgewerkt": "2026-10-28",
  "apps": [
   {
    "repo": "DraveRadioTV",
@@ -365,17 +365,6 @@
    "github": "https://github.com/mbrv4ever/DravenlockBrowser"
   },
   {
-   "repo": "DraveSchrijf",
-   "naam": "DraveSchrijf",
-   "cat": "Tools en kantoor",
-   "beschr": "Rustig schrijven aan je boek, met inspreken en voorlezen.",
-   "versie": "1.0.2",
-   "zip": "https://github.com/mbrv4ever/DraveSchrijf/releases/download/v1.0.2/DraveSchrijf-1.0.2-Windows.zip",
-   "mb": 123,
-   "img": "https://dravenlock.nl/img/apps/DraveSchrijf.jpg",
-   "github": "https://github.com/mbrv4ever/DraveSchrijf"
-  },
-  {
    "repo": "DravePDF",
    "naam": "DravePDF",
    "cat": "Tools en kantoor",
@@ -616,6 +605,28 @@
    "mb": 72,
    "img": "https://dravenlock.nl/img/apps/DraveAgenda.jpg",
    "github": "https://github.com/mbrv4ever/DraveAgenda"
+  },
+  {
+   "repo": "DraveLeon",
+   "naam": "DraveLeon",
+   "cat": "Tools en kantoor",
+   "beschr": "Leer de stem Leon woorden goed uitspreken: typ een zin, luister woord voor woord en verbeter wat fout klinkt. Je lijst geldt voor alle Drave-apps met Leon.",
+   "versie": "0.1",
+   "zip": "https://github.com/mbrv4ever/DraveLeon/releases/download/v0.1/DraveLeon-0.1-Windows.zip",
+   "mb": 110,
+   "img": "",
+   "github": "https://github.com/mbrv4ever/DraveLeon"
+  },
+  {
+   "repo": "DraveSchrijf",
+   "naam": "DraveSchrijf",
+   "cat": "Tools en kantoor",
+   "beschr": "Rustig schrijven aan je boek, met inspreken en voorlezen.",
+   "versie": "1.0.4",
+   "zip": "https://github.com/mbrv4ever/DraveSchrijf/releases/download/v1.0.4/DraveSchrijf-1.0.4-Windows.zip",
+   "mb": 120,
+   "img": "https://dravenlock.nl/img/apps/DraveSchrijf.jpg",
+   "github": "https://github.com/mbrv4ever/DraveSchrijf"
   }
  ]
 }
