@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-28",
+ "bijgewerkt": "2026-10-29",
  "apps": [
   {
    "repo": "DraveRadioTV",
@@ -50,8 +50,8 @@
    "naam": "DraveJavis",
    "cat": "AI",
    "beschr": "Een lokale, privé spraakassistent: praat via de microfoon, hij antwoordt met een echte stem, zoekt zelf online en kan je pc bedienen.",
-   "versie": "1.1.2",
-   "zip": "https://github.com/mbrv4ever/DraveJavis/releases/download/v1.1.2/DraveJavis-1.1.2-Windows.zip",
+   "versie": "1.2.0",
+   "zip": "https://github.com/mbrv4ever/DraveJavis/releases/download/v1.2.0/DraveJavis-1.2.0-Windows.zip",
    "mb": 132,
    "img": "https://dravenlock.nl/video/DraveJavis.jpg",
    "github": "https://github.com/mbrv4ever/DraveJavis"
@@ -424,8 +424,8 @@
    "naam": "DraveKITT",
    "cat": "AI",
    "beschr": "Een pratende KITT-achtige assistent (Knight Rider-sfeer) die lokaal op je pc draait.",
-   "versie": "1.0.3",
-   "zip": "https://github.com/mbrv4ever/DraveKITT/releases/download/v1.0.3/DraveKITT-1.0.3-Windows.zip",
+   "versie": "1.1.0",
+   "zip": "https://github.com/mbrv4ever/DraveKITT/releases/download/v1.1.0/DraveKITT-1.1.0-Windows.zip",
    "mb": 123,
    "img": "https://dravenlock.nl/img/apps/DraveKITT.jpg",
    "github": "https://github.com/mbrv4ever/DraveKITT"
@@ -622,9 +622,9 @@
    "naam": "DraveGuard",
    "cat": "Systeem en beveiliging",
    "beschr": "Beveiliging en onderhoud voor je pc - en nu ook je Android-telefoon: virussen en rommel opruimen, totaal onderhoud, en met DraveCare je telefoon nakijken, opruimen en foto's naar de pc halen.",
-   "versie": "1.2.0",
-   "zip": "https://github.com/mbrv4ever/DraveGuard/releases/download/v1.2.0/DraveGuard-1.2.0-Windows.zip",
-   "mb": 222,
+   "versie": "1.2.1",
+   "zip": "https://github.com/mbrv4ever/DraveGuard/releases/download/v1.2.1/DraveGuard-1.2.1-Windows.zip",
+   "mb": 228,
    "img": "https://dravenlock.nl/img/apps/DraveGuard.jpg",
    "github": "https://github.com/mbrv4ever/DraveGuard"
   }

@@ -1,6 +1,6 @@
 /* ==========================================================
    Dravenlock Software - Service Worker
-   Stale-while-revalidate strategie:
+   Pagina's: netwerk eerst (altijd de nieuwste). Overige: stale-while-revalidate:
    - Cachet HTML/CSS/JS/images bij eerste bezoek
    - Serveert vanuit cache (instant load)
    - Op de achtergrond: haalt vers exemplaar op + update cache
@@ -11,7 +11,7 @@
    weggegooid en gebruikers direct de nieuwe assets krijgen.
    ========================================================== */
 
-const CACHE_VERSION = 'dravenlock-v1.9.1';
+const CACHE_VERSION = 'dravenlock-v1.9.2';
 
 // Relatief aan de SW-locatie. Bv. als sw.js in /test/ staat, dan
 // worden alle paden relatief aan /test/ - geen hardcoded /css/
@@ -76,6 +76,22 @@ self.addEventListener('fetch', (event) => {
 
     // Uitlegvideo's niet cachen (groot, en de browser vraagt ze in stukjes op)
     if (req.url.includes('/video/')) return;
+
+    // Pagina's en apps.json: eerst het netwerk (dan zie je nieuwe versies en aantallen meteen),
+    // alleen zonder internet uit de cache. (29-10-2026)
+    const isPagina = req.mode === 'navigate' || req.destination === 'document' || req.url.includes('apps.json');
+    if (isPagina) {
+        event.respondWith(
+            fetch(req).then((networkResponse) => {
+                if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+                    const kopie = networkResponse.clone();
+                    caches.open(CACHE_VERSION).then((cache) => cache.put(req, kopie));
+                }
+                return networkResponse;
+            }).catch(() => caches.match(req).then((c) => c || caches.match('./index.html')))
+        );
+        return;
+    }
 
     event.respondWith(
         caches.match(req).then((cachedResponse) => {
