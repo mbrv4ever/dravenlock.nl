@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-29",
+ "bijgewerkt": "2026-10-30",
  "apps": [
   {
    "repo": "DraveRadioTV",
@@ -627,6 +627,17 @@
    "mb": 228,
    "img": "https://dravenlock.nl/img/apps/DraveGuard.jpg",
    "github": "https://github.com/mbrv4ever/DraveGuard"
+  },
+  {
+   "repo": "DraveKerstdorp",
+   "naam": "DraveKerstdorp",
+   "cat": "Games",
+   "beschr": "Een levend kerstdorp in vogelvlucht, gebouwd in Blender: het sneeuwt, schoorstenen roken, de trein stopt bij het station, dorpelingen en roodborstjes lopen rond en de kerstman vliegt voorbij. Klik op de huizen voor verhaaltjes, weetjes en kerstrecepten.",
+   "versie": "1.0.0",
+   "zip": "https://github.com/mbrv4ever/DraveKerstdorp/releases/download/v1.0.0/DraveKerstdorp-1.0.0-Windows.zip",
+   "mb": 207,
+   "img": "https://dravenlock.nl/img/apps/DraveKerstdorp.jpg",
+   "github": "https://github.com/mbrv4ever/DraveKerstdorp"
   }
  ]
 }
