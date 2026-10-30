@@ -11,7 +11,7 @@
    weggegooid en gebruikers direct de nieuwe assets krijgen.
    ========================================================== */
 
-const CACHE_VERSION = 'dravenlock-v1.9.5';
+const CACHE_VERSION = 'dravenlock-v1.9.6';
 
 // Relatief aan de SW-locatie. Bv. als sw.js in /test/ staat, dan
 // worden alle paden relatief aan /test/ - geen hardcoded /css/
