@@ -638,6 +638,17 @@
    "mb": 207,
    "img": "https://dravenlock.nl/img/apps/DraveKerstdorp.jpg",
    "github": "https://github.com/mbrv4ever/DraveKerstdorp"
+  },
+  {
+   "repo": "DraveHalloweendorp",
+   "naam": "DraveHalloweendorp",
+   "cat": "Games",
+   "beschr": "Het zusje van het Kerstdorp: een levend Halloweendorp in vogelvlucht, gebouwd in Blender. Pompoenen branden, mist trekt over het dorp, verklede kinderen lopen rond, spookjes zweven bij het kerkhof en de heks vliegt langs de maan. Klik op de huizen voor verhaaltjes en griezelrecepten.",
+   "versie": "1.0.0",
+   "zip": "https://github.com/mbrv4ever/DraveHalloweendorp/releases/download/v1.0.0/DraveHalloweendorp-1.0.0-Windows.zip",
+   "mb": 206,
+   "img": "https://dravenlock.nl/img/apps/DraveHalloweendorp.jpg",
+   "github": "https://github.com/mbrv4ever/DraveHalloweendorp"
   }
  ]
 }
