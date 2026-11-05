@@ -622,9 +622,9 @@
    "naam": "DraveGuard",
    "cat": "Systeem en beveiliging",
    "beschr": "Beveiliging en onderhoud voor je pc - en nu ook je Android-telefoon: virussen en rommel opruimen, totaal onderhoud, en met DraveCare je telefoon nakijken, opruimen en foto's naar de pc halen.",
-   "versie": "1.2.3",
-   "zip": "https://github.com/mbrv4ever/DraveGuard/releases/download/v1.2.3/DraveGuard-1.2.3-Windows.zip",
-   "mb": 228,
+   "versie": "1.2.4",
+   "zip": "https://github.com/mbrv4ever/DraveGuard/releases/download/v1.2.4/DraveGuard-1.2.4-Windows.zip",
+   "mb": 222,
    "img": "https://dravenlock.nl/img/apps/DraveGuard.jpg",
    "github": "https://github.com/mbrv4ever/DraveGuard"
   },
