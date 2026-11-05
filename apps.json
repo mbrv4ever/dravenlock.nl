@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-31",
+ "bijgewerkt": "2026-11-05",
  "apps": [
   {
    "repo": "DraveRadioTV",
@@ -649,6 +649,17 @@
    "mb": 206,
    "img": "https://dravenlock.nl/img/apps/DraveHalloweendorp.jpg",
    "github": "https://github.com/mbrv4ever/DraveHalloweendorp"
+  },
+  {
+   "repo": "DraveComic",
+   "naam": "DraveComic",
+   "cat": "Media en creatief",
+   "beschr": "Maak je eigen stripboek: vakjes, plaatjes, zelf tekenen in lagen, praatballonnen en geluidswoorden, achtergronden laag op laag (lucht, bergen, stad, actielijnen, knal en meer), een voor- en achterkant en bladeren. Bewaar je boek als PDF of als plaatjes.",
+   "versie": "0.5.0",
+   "zip": "https://github.com/mbrv4ever/DraveComic/releases/download/v0.5.0/DraveComic-0.5.0-Windows.zip",
+   "mb": 48,
+   "img": "https://dravenlock.nl/img/apps/DraveComic.jpg",
+   "github": "https://github.com/mbrv4ever/DraveComic"
   }
  ]
 }
