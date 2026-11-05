@@ -6,8 +6,8 @@
    "naam": "DraveRadio & TV",
    "cat": "Media en creatief",
    "beschr": "Gratis radio en tv van internet, uit de hele wereld, groot en duidelijk. Met favorieten, slaaptimer, wat er nu speelt en een stem die de zender noemt.",
-   "versie": "0.3.1",
-   "zip": "https://github.com/mbrv4ever/DraveRadioTV/releases/download/v0.3.1/DraveRadioTV-0.3.1-Windows.zip",
+   "versie": "0.3.2",
+   "zip": "https://github.com/mbrv4ever/DraveRadioTV/releases/download/v0.3.2/DraveRadioTV-0.3.2-Windows.zip",
    "mb": 112,
    "img": "https://dravenlock.nl/video/DraveRadioTV.jpg",
    "github": "https://github.com/mbrv4ever/DraveRadioTV"
@@ -50,8 +50,8 @@
    "naam": "DraveJavis",
    "cat": "AI",
    "beschr": "Een lokale, privé spraakassistent: praat via de microfoon, hij antwoordt met een echte stem, zoekt zelf online en kan je pc bedienen.",
-   "versie": "1.2.1",
-   "zip": "https://github.com/mbrv4ever/DraveJavis/releases/download/v1.2.1/DraveJavis-1.2.1-Windows.zip",
+   "versie": "1.2.2",
+   "zip": "https://github.com/mbrv4ever/DraveJavis/releases/download/v1.2.2/DraveJavis-1.2.2-Windows.zip",
    "mb": 132,
    "img": "https://dravenlock.nl/video/DraveJavis.jpg",
    "github": "https://github.com/mbrv4ever/DraveJavis"
@@ -567,8 +567,8 @@
    "naam": "DraveGoedNieuws",
    "cat": "Media en creatief",
    "beschr": "Alleen goed nieuws: positieve berichten uit Nederland en de wereld, groot en rustig. Engelse berichten kun je laten vertalen, en Leon leest voor.",
-   "versie": "0.1.1",
-   "zip": "https://github.com/mbrv4ever/DraveGoedNieuws/releases/download/v0.1.1/DraveGoedNieuws-0.1.1-Windows.zip",
+   "versie": "0.1.2",
+   "zip": "https://github.com/mbrv4ever/DraveGoedNieuws/releases/download/v0.1.2/DraveGoedNieuws-0.1.2-Windows.zip",
    "mb": 135,
    "img": "",
    "github": "https://github.com/mbrv4ever/DraveGoedNieuws"
@@ -578,8 +578,8 @@
    "naam": "DraveKas",
    "cat": "Tools en kantoor",
    "beschr": "Je huishoudboekje, groot en duidelijk: zie meteen wat er deze maand nog over is. Met vaste lasten, spaardoelen en voorlezen. Op de pc én je Android-telefoon.",
-   "versie": "0.1.1",
-   "zip": "https://github.com/mbrv4ever/DraveKas/releases/download/v0.1.1/DraveKas-0.1.1-Windows.zip",
+   "versie": "0.1.2",
+   "zip": "https://github.com/mbrv4ever/DraveKas/releases/download/v0.1.2/DraveKas-0.1.2-Windows.zip",
    "mb": 113,
    "img": "https://dravenlock.nl/img/apps/DraveKas.jpg",
    "github": "https://github.com/mbrv4ever/DraveKas"
