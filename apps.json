@@ -666,9 +666,9 @@
    "naam": "DraveWriter",
    "cat": "Media en creatief",
    "beschr": "Maak je eigen receptenboek of een gewoon boek. Recepten met foto, ingrediënten en stappen; de voedingswaarden per portie rekent hij zelf uit (NEVO-tabel van het RIVM, offline). Meer of minder personen rekent netjes mee. Kaft, inhoud en bladzijdenummers vanzelf; als PDF of klaar voor de drukker.",
-   "versie": "0.2.0",
-   "zip": "https://github.com/mbrv4ever/DraveWriter/releases/download/v0.2.0/DraveWriter-0.2.0-Windows.zip",
-   "mb": 62,
+   "versie": "0.2.1",
+   "zip": "https://github.com/mbrv4ever/DraveWriter/releases/download/v0.2.1/DraveWriter-0.2.1-Windows.zip",
+   "mb": 61,
    "img": "https://dravenlock.nl/img/apps/DraveWriter.jpg",
    "github": "https://github.com/mbrv4ever/DraveWriter"
   }
