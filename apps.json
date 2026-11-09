@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-05",
+ "bijgewerkt": "2026-11-09",
  "apps": [
   {
    "repo": "DraveRadioTV",
@@ -660,6 +660,17 @@
    "mb": 48,
    "img": "https://dravenlock.nl/img/apps/DraveComic.jpg",
    "github": "https://github.com/mbrv4ever/DraveComic"
+  },
+  {
+   "repo": "DraveWriter",
+   "naam": "DraveWriter",
+   "cat": "Media en creatief",
+   "beschr": "Maak je eigen receptenboek of een gewoon boek. Recepten met foto, ingrediënten en stappen; de voedingswaarden per portie rekent hij zelf uit (NEVO-tabel van het RIVM, offline). Meer of minder personen rekent netjes mee. Kaft, inhoud en bladzijdenummers vanzelf; als PDF of klaar voor de drukker.",
+   "versie": "0.2.0",
+   "zip": "https://github.com/mbrv4ever/DraveWriter/releases/download/v0.2.0/DraveWriter-0.2.0-Windows.zip",
+   "mb": 62,
+   "img": "https://dravenlock.nl/img/apps/DraveWriter.jpg",
+   "github": "https://github.com/mbrv4ever/DraveWriter"
   }
  ]
 }
