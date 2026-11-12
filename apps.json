@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-11",
+ "bijgewerkt": "2026-11-12",
  "apps": [
   {
    "repo": "DraveRadioTV",
@@ -671,6 +671,17 @@
    "mb": 61,
    "img": "https://dravenlock.nl/img/apps/DraveWriter.jpg",
    "github": "https://github.com/mbrv4ever/DraveWriter"
+  },
+  {
+   "repo": "DraveFileshare",
+   "naam": "DraveFileshare",
+   "cat": "Web en servers",
+   "beschr": "Stuur bestanden tot 2 GB naar iedereen met een link die maar één keer werkt. Versleuteld op je eigen pc of telefoon; de server ziet alleen onleesbare stukjes. De ontvanger heeft alleen een browser nodig. Na het ophalen of na de gekozen tijd (1 uur tot 7 dagen) wordt alles gewist. Met Android-app.",
+   "versie": "1.0.0",
+   "zip": "https://github.com/mbrv4ever/DraveFileshare/releases/download/v1.0.0/DraveFileshare-1.0.0-Windows.zip",
+   "mb": 41,
+   "img": "https://dravenlock.nl/img/apps/DraveFileshare.jpg",
+   "github": "https://github.com/mbrv4ever/DraveFileshare"
   }
  ]
 }
