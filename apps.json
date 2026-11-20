@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-12",
+ "bijgewerkt": "2026-11-20",
  "apps": [
   {
    "repo": "DraveRadioTV",
@@ -682,6 +682,17 @@
    "mb": 41,
    "img": "https://dravenlock.nl/img/apps/DraveFileshare.jpg",
    "github": "https://github.com/mbrv4ever/DraveFileshare"
+  },
+  {
+   "repo": "DraveMaatje",
+   "naam": "DraveMaatje",
+   "cat": "Systeem en beveiliging",
+   "beschr": "Je maatje voor de pc, voor ouderen en iedereen die geen zin heeft in pc-gedoe. Eén grote knop kijkt je pc na en vertelt het in gewone taal, met voorleesstem. Helpt met 20 instellingen (na JA, met Terugzetten), maakt een pc-paspoort voor de reparateur en beschermt je tegen oplichters: nepberichten, nepsites en meekijkers.",
+   "versie": "0.6",
+   "zip": "https://github.com/mbrv4ever/DraveMaatje/releases/download/v0.6/DraveMaatje-0.6.zip",
+   "mb": 103,
+   "img": "https://dravenlock.nl/img/apps/DraveMaatje.jpg",
+   "github": "https://github.com/mbrv4ever/DraveMaatje"
   }
  ]
 }
