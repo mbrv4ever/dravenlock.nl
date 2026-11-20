@@ -693,6 +693,17 @@
    "mb": 103,
    "img": "https://dravenlock.nl/img/apps/DraveMaatje.jpg",
    "github": "https://github.com/mbrv4ever/DraveMaatje"
+  },
+  {
+   "repo": "VisualBuddy",
+   "naam": "Drave Visual Buddy",
+   "cat": "Tools en kantoor",
+   "beschr": "Je hulpje als je slecht ziet. Buddy leest hardop voor wat er op je scherm staat (F7 tot F10, overal op de pc), met een eigen browser met grote knoppen en Leesmodus. Leest je mail voor en controleert of hij te vertrouwen is, kijkt je pc na, helpt met 20 instellingen (na JA) en beschermt je tegen oplichters.",
+   "versie": "0.9",
+   "zip": "https://github.com/mbrv4ever/VisualBuddy/releases/download/v0.9/DraveVisualBuddy-0.9.zip",
+   "mb": 287,
+   "img": "https://dravenlock.nl/img/apps/DraveVisualBuddy.jpg",
+   "github": "https://github.com/mbrv4ever/VisualBuddy"
   }
  ]
 }
