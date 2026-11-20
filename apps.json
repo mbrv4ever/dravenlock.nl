@@ -704,6 +704,17 @@
    "mb": 287,
    "img": "https://dravenlock.nl/img/apps/DraveVisualBuddy.jpg",
    "github": "https://github.com/mbrv4ever/VisualBuddy"
+  },
+  {
+   "repo": "DraveKaraoke",
+   "naam": "DraveKaraoke",
+   "cat": "Media en creatief",
+   "beschr": "Samen zingen met je pc en je mobiel. Kies op je mobiel een liedje van YouTube, de pc speelt het en de songtekst loopt mee, ook met duet in kleuren. Met muziek-modus bedien je je muziek vanaf de bank, en de eigen Android-app vindt je pc vanzelf. Alles blijft thuis op je eigen wifi.",
+   "versie": "0.2",
+   "zip": "https://github.com/mbrv4ever/DraveKaraoke/releases/download/v0.2/DraveKaraoke-0.2.zip",
+   "mb": 272,
+   "img": "https://dravenlock.nl/img/apps/DraveKaraoke.jpg",
+   "github": "https://github.com/mbrv4ever/DraveKaraoke"
   }
  ]
 }
